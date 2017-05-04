@@ -1,28 +1,36 @@
-#!/app/perl/5.8.4/bin/perl
 ##############################################################################
 # getErisData.pm
-# Created: 2017.03.23 by 
-# Function: This is Perl API to get configration Data.
+# Created: 2017.03.23 by ehunjng
+# Function: This is Perl API for Pre-Check to get Eris configration Data.
+# 2017-05-03 by ehunjng
+#   Changes: Function "getNodeLicense" added.
 ##############################################################################
-package getJsonData;
+package getErisData;
+use lib '/xxxxxx/lib/perl5/site_perl/5.10.0'; #This is custom LIB_PATH
 use strict;
 use warnings;
 use JSON;
 use LWP::Simple;
 use LWP::UserAgent;
 use diagnostics;
-use Switch;
 
 our $web_base_url          = "";
 our %web_base_url          = ();
-$web_base_url{test_plans}  = "";
-our $ENODEB = CONSTANT VALUE;
-our $CABINET = CONSTANT VALUE;
-our $TELNET = CONSTANT VALUE;
-our $SWITCH = CONSTANT VALUE;
-our $MDU = CONSTANT VALUE;
-our $SYNCHRONIZATION = CONSTANT VALUE;
-our $SOURCE = CONSTANT VALUE;
+$web_base_url{test_plans}  = "This is URL Restful API";
+
+our $licensedir = "This is directory for storing license";
+our $sites = "";
+our %sites  = ();
+$sites{linkoping}="linkoping";
+$sites{nanjing}="nanjing";
+
+our $ENODEB = "ENODEB";
+our $CABINET = "CABINET";
+our $TELNET = "TELNET";
+our $SWITCH = "SWITCH";
+our $MDU = "DIGITAL_UNIT";
+our $SYNCHRONIZATION = "SYNCHRONIZATION";
+our $SOURCE = "SOURCE";
 
 ##############################################################################
 # CONSTRUCTOR
@@ -31,13 +39,24 @@ our $SOURCE = CONSTANT VALUE;
 ##############################################################################
 sub new {
 	my $class = shift;
-	my (%params) = @_;
+	my %params = @_;
 	my $self = {
 	_baseUrl => $web_base_url{test_plans},
-	_tpname => $params{tpname}
+	_tpname => $params{tpname},
+	_opsite => $params{site},
+	_licensedir => $licensedir
 	};
+	bless ($self, $class);
+	if (lc($self->{_opsite}) eq "li"){
+		$self->{_licensedir} = $self->{_licensedir}.$sites{linkoping}."/"
+	}
+	if (lc($self->{_opsite}) eq "nj") {
+		$self->{_licensedir} = $self->{_licensedir}.$sites{nanjing}."/"	
+	}
 	$self->{testPlanURL} = $self->{_baseUrl}.=$self->{_tpname};
-	bless ($self, $class);	
+	$self->{_cfg} = $self->{_tpname}.".cfg";
+        $self->{_licensefile} = $self->{_licensedir}.$self->{_tpname}."/".$self->{_cfg};
+		
 	$self->_setCisAttributes();
 	$self->{class} = $class;
 	return $self;
@@ -97,12 +116,12 @@ sub _getResponseContent{
 			 ssl_opts => { verify_hostname => 0 }
 			 );
 	my $retval = {};
-	my $json = JSON->new->utf8; 	      		 
+	my $json = JSON->new->utf8;
 	my $response = $ua->get($URL);
-	if ($response->is_error){
+	if ($response->{is_error}){
 		print "Failed to get testplan data by $self->{testPlanURL}\n";
 		die $response->message;
-	}   	
+	} 
 	my $content = $response->content;
 	$retval = $json->decode($content);
 	return $retval;
@@ -117,23 +136,23 @@ sub _getCiAttributes{
 	#print "$ci\n";
 	#print "$attribs\n";
 	my $ref = "";	
-	switch($ci){
-		case "$ENODEB" {
-			die "Not find ENODEB attributes\n" unless $self->{testRbsHash};				
-			$ref = $self->{testRbsHash};						
-		}
-		case "$CABINET" {
-			die "Not find Cabinet attributes\n" unless $self->{testCabinetHash};
-			$ref = $self->{testCabinetHash};
-		}
-		case "$TELNET" {			
-			die "Not find telnet switch attributes\n" unless $self->{testSwitchHash};
-			$ref = $self->{testSwitchHash};
-		}
-		case "$MDU" {
-	                die "Not find master Du attributes\n" unless  $self->{testMduHash};
-			$ref = $self->{testMduHash};
-		}
+
+	if($ci =~ /$ENODEB/){
+		die "Not find ENODEB attributes\n" unless $self->{testRbsHash};				
+		$ref = $self->{testRbsHash};						
+	}
+	if($ci =~ /$CABINET/){	
+		die "Not find Cabinet attributes\n" unless $self->{testCabinetHash};
+		$ref = $self->{testCabinetHash};
+	}
+		
+	if($ci =~ /$TELNET/){			
+		die "Not find telnet switch attributes\n" unless $self->{testSwitchHash};
+		$ref = $self->{testSwitchHash};
+	}
+	if($ci =~ /$MDU/){
+		die "Not find master Du attributes\n" unless  $self->{testMduHash};
+		$ref = $self->{testMduHash};
 	}
 	foreach ( @{ $attribs } ) {
 		$ref = $ref->[ 0 ] if ( ref( $ref ) eq 'ARRAY' );		
@@ -146,10 +165,7 @@ sub _getCiAttributes{
 # getSwitchPort()
 # returns the telnet switch port.
 ##############################################################################
-#Get switch port.
-#sightPort() -> rs232SwitchPort -> portNumber
 sub getSwitchPort{
-	#my($funcName) = shift;
 	my($self) = @_;
 	return $self->_getCiAttributes("$TELNET",['relation_list','params_ci_1','Port']);
 }
@@ -158,8 +174,6 @@ sub getSwitchPort{
 # getSwitchIp()
 # returns the telnet switch IP.
 ##############################################################################
-#Get switch IP address.
-#sightHost() -> rs232SwitchPort -> telnetSwitch -> ipAddress -> ip
 sub getSwitchIp{
 	my($self) = @_;
 	return $self->_getCiAttributes("$TELNET",['params','IP interface','value','0','IP','value']);
@@ -169,8 +183,6 @@ sub getSwitchIp{
 # getBroadcastAddress()
 # returns the ENODEB broadcast address.
 ##############################################################################
-#Get RBS broadcast Address.
-#broadcast() -> ethernetLink -> subnet -> broadcastAddress
 sub getBroadcastAddress{
 	my($self) = @_;
 	return $self->_getCiAttributes("$MDU",['params','Site LAN subnet broadcast address','value']);
@@ -180,8 +192,6 @@ sub getBroadcastAddress{
 # getNetmask()
 # returns the ENODEB netmask name.
 ##############################################################################
-#Get RBS Netmask name.
-#netmask() -> ethernetLink -> subnet -> subnetMask -> name
 sub getNetmask{
 	my($self) = @_;
 	return $self->_getCiAttributes("$MDU",['params','Site LAN subnet name','value']);
@@ -191,8 +201,6 @@ sub getNetmask{
 # getIp()
 # returns the ENODEB IP address.
 ##############################################################################
-#Get RBS IP address.
-#ip() -> ethernetLink, ip
 sub getIp{
 	my($self) = @_;
 	return $self->_getCiAttributes("$MDU",['params','Site LAN IP address','value']);
@@ -202,8 +210,6 @@ sub getIp{
 # getDefaultRouter()
 # returns the ENODEB default router.
 ##############################################################################
-#Get RBS defaultRouter.
-#router() -> ethernetLink -> subnet -> defaultRouter
 sub getDefaultRouter{
 	my($self) = @_;
 	return $self->_getCiAttributes("$MDU",['params','Site LAN subnet default router','value']);	
@@ -213,9 +219,6 @@ sub getDefaultRouter{
 # getTuSlot()
 # returns the ENODEB tuslot.
 ##############################################################################
-#Get RBS tuSlot.
-#tuSlot() -> equipmentType? -> transmissionConfigurations, etSlot  #?
-#tuSlot() -> equipmentType? -> tuSlot  #?
 sub getTuSlot{
 	my($self) = @_;
 	#return $self->_getRbsAttribValue(['params','Primary TU slot','value']);
@@ -226,10 +229,7 @@ sub getTuSlot{
 ##############################################################################
 # getEtSlot()
 # returns the ENODEB etslot.
-##############################################################################
-#Get RBS etSlot.
-#etSlot() -> equipmentType? -> transmissionConfigurations, etSlot  #?
-#etSlot() -> equipmentType? -> etResources, slot   
+############################################################################## 
 sub getEtSlot{
 	my($self) = @_;	
 	return $self->_getCiAttributes("$MDU",['params','Slot','value']);
@@ -240,10 +240,6 @@ sub getEtSlot{
 # getEtPort()
 # returns the ENODEB etport.
 ##############################################################################
-#Get RBS etPort  ????????????????????????????????????????????????????????????????
-#4.3.5	Transmission configuration
-#etPort() -> equipmentType? -> transmissionConfigurations, port  #?
-#etPort() -> equipmentType? -> etResources, slot  #?
 sub getEtPort{
 	my($self) = @_;	
 	return $self->_getCiAttributes("$MDU",['params','Port','value']);
@@ -253,8 +249,6 @@ sub getEtPort{
 # getMpSlot()
 # returns the ENODEB mp slot.
 ##############################################################################
-#Get RBS mpSlot
-#mpSlot() -> equipmentType? -> mpResources, slot  #?
 sub getMpSlot{
 	my($self) = @_;
         #return $self->_getRbsAttribValue(['params','MP list','value','0','Slot','value']);
@@ -265,8 +259,6 @@ sub getMpSlot{
 # getMpType()
 # returns the ENODEB mp type.
 ##############################################################################
-#Get RBS mptype
-#mpType() -> duwConfiguration? -> mpResources, type, name  #?
 sub getMpType{
 	my($self) = @_;
 	return "DUW";
@@ -277,8 +269,6 @@ sub getMpType{
 # getRbsType()
 # returns the ENODEB type.
 ##############################################################################
-#Get RBS type
-#rbsType() -> nodeSubType, name
 sub getRbsType{
 	 my( $self)  = @_;
 	 return $self->_getCiAttributes("$ENODEB",['params','Type','value']);	 
@@ -288,7 +278,6 @@ sub getRbsType{
 # getRbsName()
 # returns the ENODEB name.
 ##############################################################################
-#Get RBS name
 sub getRbsName{
 	my( $self ) = @_;
 	return $self->_getCiAttributes("$ENODEB",['name']);
@@ -298,12 +287,10 @@ sub getRbsName{
 # getLnhPort()
 # returns the ENODEB Link handler broadcast port.
 ##############################################################################
-#Get RBS Link handler broadcast port
-#lnhPort() -> linkHandlerBroadcastPort
 sub getLnhPort{
 	my( $self ) = @_;	
 	#return $self->_getRbsAttribValue(['params','Link handler broadcast port','value']) || "";
-	print "2DO linkhandler for multistandardnode ?";
+	#print "2DO linkhandler for multistandardnode ?";
 	return  "";
 }
 
@@ -311,8 +298,6 @@ sub getLnhPort{
 # getNodeType()
 # returns the NODE type.
 ##############################################################################
-#Get cabinet type
-#nodeType() -> cabinetType, name
 sub getNodeType{
 	my( $self ) = @_;
 	return $self->_getCiAttributes("$CABINET",['params','Product name','value']);
@@ -322,7 +307,6 @@ sub getNodeType{
 # getNodeName()
 # returns the NODE name.
 ##############################################################################
-#Get cabinet name
 sub getNodeName{
 	my( $self ) = @_;
         #return $self->_getCabinetAttribValue(['name']);
@@ -333,9 +317,6 @@ sub getNodeName{
 # getTransmission()
 # returns the ENODEB transmission type.
 ##############################################################################
-#can't find
-#transmission() -> equipmentType? -> transmissionLinks, controllerConfiguration, type, name #?
-#transmission() -> equipmentType? -> etResources, type, name #?
 sub getTransmission{
 	my( $self ) = @_;	
 	return $self->_getCiAttributes("$MDU",['params','Transmission type','value']);	
@@ -345,8 +326,6 @@ sub getTransmission{
 # getTransport()
 # returns the ENODEB transport.
 ##############################################################################
-#can't find
-#transport() -> transmissionConfigurations, name
 sub getTransport{
 	my( $self ) = @_;
 	return $self->_getCiAttributes("$MDU",['params','Port','value']) || "";
@@ -358,9 +337,9 @@ sub getTransport{
 ##############################################################################
 sub getNtpSecondaryServer{
 	my ( $self ) = @_;
-	return $self->{testSNTPHash}->{'name'};
-
-
+	if (exists( $self->{testSNTPHash}->{'name'})){
+		return $self->{testSNTPHash}->{'name'};
+	}
 }
 ##############################################################################
 # getNtpPrimaryServer()
@@ -368,9 +347,49 @@ sub getNtpSecondaryServer{
 ##############################################################################
 sub getNtpPrimaryServer{
 	my ( $self ) = @_;
-	return $self->{testPNTPHash}->{'name'};
+	if (exists($self->{testPNTPHash}->{'name'})){
+		return $self->{testPNTPHash}->{'name'};
+        }
 }
-
+##############################################################################
+# getNodeLicense()
+# returns the name of license file.
+# It only returns the license file which is the newest.
+##############################################################################
+sub getNodeLicense{
+	my ( $self ) = @_;
+	my @expireDateArray;
+	my %licenseHash;
+	#validate the directory and license file is valid or not.
+	if ( ! -d $self->{_licensedir}){
+		die "license directory $self->{_licensedir} doesn't exist.";
+	}	
+	if ( ! -f $self->{_licensefile}){
+		die "the config file $self->{_licensefile} doesn't exist.";
+	}	
+	if ( -z $self->{_licensefile}){
+		die "the config file $self->{_licensefile} is empty.";	
+	}
+	
+	#open STPNAME.cfg and deal with the file line by line.	
+        open(my $FILE,"<",$self->{_licensefile})||die"can not open the file: $!\n";
+	my @linelist = <$FILE>;
+	my $linecount = @linelist;
+	if ( $linecount lt 2){
+	    die "the config file $self->{_licensefile} is not valid, it should contains 2 lines at least.";
+	}
+	foreach my $eachline(@linelist){
+	    my @tmpArray = split(/,/,$eachline);
+	    if ($tmpArray[0] eq "TEST_CONFIGURATION_NAME"){
+	    	next;
+	    }
+	    push(@expireDateArray,$tmpArray[8]);
+	    $licenseHash{$tmpArray[8]} = $tmpArray[2];
+	}
+	close $FILE;
+	my @sorted_Array = sort(@expireDateArray);
+	return  $licenseHash{pop(@sorted_Array)};
+}
 ##############################################################################
 # DESTROY()
 ##############################################################################
@@ -380,9 +399,12 @@ sub DESTROY{
 }
 1;
 
-my $getObj = getErisData->new(tpname=>'STP_NJRBS_233');
-#print "$port \n";
-#$getObj = getErisData_233->new(tpname=>'STP_NJRBS_233');
+=comment:this is for test and usage
+my $getObj = getErisData->new(tpname=>'NJRBS_268',site=>"nj");
+
+print "0_licensefile:\n";
+my $licenseFile = $getObj->getNodeLicense();
+print "0_licensefile:$licenseFile\n\n";
 
 print "1_sightPort() -> rs232SwitchPort -> portNumber\n";
 my $switchPort = $getObj->getSwitchPort();
@@ -461,3 +483,4 @@ print "19_transmission:$transmission\n\n";
 print "20_transport() -> transmissionConfigurations, name\n";
 my $transport = $getObj->getTransport();
 print "20_transport:$transport\n\n";
+=comment: this is for test and usage

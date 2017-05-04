@@ -5,6 +5,7 @@ import types
 
 httpClient = None
 headers = {'Content-Type': 'application/json'}
+#This is constants value
 host = ""
 TELNET = ""
 SWITCH = ""
