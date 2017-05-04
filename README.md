@@ -1,1 +1,1 @@
-#The repo is for daily work about script pyrhon, perl, and shell.
+#The repo is for daily work about script python, perl, and shell.
