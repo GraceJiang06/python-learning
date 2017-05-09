@@ -21,16 +21,16 @@ $web_base_url{test_plans}  = "This is URL Restful API";
 our $licensedir = "This is directory for storing license";
 our $sites = "";
 our %sites  = ();
-$sites{linkoping}="linkoping";
-$sites{nanjing}="nanjing";
+$sites{linkoping}="";
+$sites{nanjing}="";
 
-our $ENODEB = "ENODEB";
-our $CABINET = "CABINET";
-our $TELNET = "TELNET";
-our $SWITCH = "SWITCH";
-our $MDU = "DIGITAL_UNIT";
-our $SYNCHRONIZATION = "SYNCHRONIZATION";
-our $SOURCE = "SOURCE";
+our $ENODEB = "";
+our $CABINET = "";
+our $TELNET = "";
+our $SWITCH = "";
+our $MDU = "";
+our $SYNCHRONIZATION = "";
+our $SOURCE = "";
 
 ##############################################################################
 # CONSTRUCTOR
