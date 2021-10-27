@@ -1,0 +1,4427 @@
+{
+  "items": [
+    {
+      "characteristic": "virtual", 
+      "characteristic_source": "default_by_type", 
+      "characteristic_source_is_external": false, 
+      "ci_type": "https://teof.internal.ericsson.com/eris/api/ci-types/AMF", 
+      "exists_in_equipman": false, 
+      "exists_in_hydra": false, 
+      "exists_in_taxen": false, 
+      "gic_position": null, 
+      "hns_name": false, 
+      "id": 441950, 
+      "latest_sync_info": {
+        "EQUIPMAN": "Wed, 06 Oct 2021 10:50:06 GMT"
+      }, 
+      "modified_url": "https://teof.internal.ericsson.com/eris/api/ci/AMF110/modified?timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+      "name": "AMF110", 
+      "params": {
+        "IP interface": {
+          "id": 10110984, 
+          "source": "user", 
+          "source_name": "ealegbi", 
+          "value": {
+            "0": {
+              "IP": {
+                "value": "10.88.158.202"
+              }, 
+              "Interface": {
+                "value": "AMF_IPaddress1"
+              }
+            }, 
+            "1": {
+              "IP": {
+                "value": "10.88.158.234"
+              }, 
+              "Interface": {
+                "value": "AMF_IPaddress2"
+              }
+            }
+          }
+        }, 
+        "Slicing Information": {
+          "id": 10063365, 
+          "source": "user", 
+          "source_name": "epkheke", 
+          "value": {
+            "0": {
+              "SD": {
+                "value": "1"
+              }, 
+              "SST": {
+                "value": "7"
+              }
+            }
+          }
+        }
+      }, 
+      "params_url": "https://teof.internal.ericsson.com/eris/api/ci/AMF110/params", 
+      "pooled": false, 
+      "related_ci": "https://teof.internal.ericsson.com/eris/api/ci/?related_ci=AMF110&timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+      "related_test_plan_info": {
+        "SEROITSTP00323": "https://teof.internal.ericsson.com/eris/api/test-plans/SEROITSTP00323?timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+        "SEROITSTP00324": "https://teof.internal.ericsson.com/eris/api/test-plans/SEROITSTP00324?timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+        "SEROITSTP00326": "https://teof.internal.ericsson.com/eris/api/test-plans/SEROITSTP00326?timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+        "SEROITSTP00718": "https://teof.internal.ericsson.com/eris/api/test-plans/SEROITSTP00718?timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+        "SEROITSTP00746": "https://teof.internal.ericsson.com/eris/api/test-plans/SEROITSTP00746?timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+        "SEROITSTP00748": "https://teof.internal.ericsson.com/eris/api/test-plans/SEROITSTP00748?timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+        "SEROITSTP00750": "https://teof.internal.ericsson.com/eris/api/test-plans/SEROITSTP00750?timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+        "SEROITSTP00752": "https://teof.internal.ericsson.com/eris/api/test-plans/SEROITSTP00752?timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+        "SEROITSTP00766": "https://teof.internal.ericsson.com/eris/api/test-plans/SEROITSTP00766?timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+        "SEROITSTP00921": "https://teof.internal.ericsson.com/eris/api/test-plans/SEROITSTP00921?timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+        "SEROITSTP01232": "https://teof.internal.ericsson.com/eris/api/test-plans/SEROITSTP01232?timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+        "SEROITSTP01251": "https://teof.internal.ericsson.com/eris/api/test-plans/SEROITSTP01251?timestamp=2021-10-11T06%3A29%3A15%2B00%3A00"
+      }, 
+      "related_test_plans": "https://teof.internal.ericsson.com/eris/api/test-plans/?ci=AMF110&timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+      "relation_list": [
+        {
+          "ci_1": "46594", 
+          "ci_1_type_name": "CORE_NETWORK", 
+          "ci_2": "AMF110", 
+          "ci_2_type_name": "AMF", 
+          "ci_url_1": "https://teof.internal.ericsson.com/eris/api/ci/46594", 
+          "ci_url_2": "https://teof.internal.ericsson.com/eris/api/ci/AMF110", 
+          "id": 1653996, 
+          "is_complex": false, 
+          "params_ci_1": {}, 
+          "params_ci_2": {}, 
+          "params_url": "https://teof.internal.ericsson.com/eris/api/ci-relations/1653996/params", 
+          "source": "user", 
+          "source_name": "epkheke", 
+          "type_relation": "https://teof.internal.ericsson.com/eris/api/ci-type-relations/1507", 
+          "url": "https://teof.internal.ericsson.com/eris/api/ci-relations/1653996"
+        }
+      ], 
+      "relation_types": "https://teof.internal.ericsson.com/eris/api/ci-type-relations/allowed/AMF", 
+      "relations": "https://teof.internal.ericsson.com/eris/api/ci-relations/?ci=AMF110&timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+      "source": "user", 
+      "source_name": "epkheke", 
+      "status": "Busy", 
+      "url": "https://teof.internal.ericsson.com/eris/api/ci/AMF110?timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+      "utilization": "No data", 
+      "utilization_failure": {}
+    }, 
+    {
+      "characteristic": "physical", 
+      "characteristic_source": "default_by_type", 
+      "characteristic_source_is_external": false, 
+      "ci_type": "https://teof.internal.ericsson.com/eris/api/ci-types/CORE_NETWORK", 
+      "exists_in_equipman": false, 
+      "exists_in_hydra": false, 
+      "exists_in_taxen": false, 
+      "gic_position": null, 
+      "hns_name": false, 
+      "id": 383208, 
+      "latest_sync_info": {}, 
+      "modified_url": "https://teof.internal.ericsson.com/eris/api/ci/46594/modified?timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+      "name": "46594", 
+      "params": {
+        "MCC": {
+          "id": 9507405, 
+          "source": "user", 
+          "source_name": "epntraa", 
+          "value": "262"
+        }, 
+        "MNC": {
+          "id": 9507406, 
+          "source": "user", 
+          "source_name": "epntraa", 
+          "value": "80"
+        }, 
+        "MNC length": {
+          "id": 9507407, 
+          "source": "user", 
+          "source_name": "epntraa", 
+          "value": "2"
+        }, 
+        "TAC": {
+          "id": 9507404, 
+          "source": "user", 
+          "source_name": "epntraa", 
+          "value": "46594"
+        }
+      }, 
+      "params_url": "https://teof.internal.ericsson.com/eris/api/ci/46594/params", 
+      "pooled": false, 
+      "related_ci": "https://teof.internal.ericsson.com/eris/api/ci/?related_ci=46594&timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+      "related_test_plan_info": {
+        "SEKIITSTP00586": "https://teof.internal.ericsson.com/eris/api/test-plans/SEKIITSTP00586?timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+        "SEKIITSTP01135": "https://teof.internal.ericsson.com/eris/api/test-plans/SEKIITSTP01135?timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+        "SEROITSTP00323": "https://teof.internal.ericsson.com/eris/api/test-plans/SEROITSTP00323?timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+        "SEROITSTP00324": "https://teof.internal.ericsson.com/eris/api/test-plans/SEROITSTP00324?timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+        "SEROITSTP00326": "https://teof.internal.ericsson.com/eris/api/test-plans/SEROITSTP00326?timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+        "SEROITSTP00629": "https://teof.internal.ericsson.com/eris/api/test-plans/SEROITSTP00629?timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+        "SEROITSTP00685": "https://teof.internal.ericsson.com/eris/api/test-plans/SEROITSTP00685?timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+        "SEROITSTP01673": "https://teof.internal.ericsson.com/eris/api/test-plans/SEROITSTP01673?timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+        "SEROITSTP04835": "https://teof.internal.ericsson.com/eris/api/test-plans/SEROITSTP04835?timestamp=2021-10-11T06%3A29%3A15%2B00%3A00"
+      }, 
+      "related_test_plans": "https://teof.internal.ericsson.com/eris/api/test-plans/?ci=46594&timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+      "relation_list": [
+        {
+          "ci_1": "seroitrbs00323", 
+          "ci_1_type_name": "GNODEB", 
+          "ci_2": "46594", 
+          "ci_2_type_name": "CORE_NETWORK", 
+          "ci_url_1": "https://teof.internal.ericsson.com/eris/api/ci/seroitrbs00323", 
+          "ci_url_2": "https://teof.internal.ericsson.com/eris/api/ci/46594", 
+          "id": 1607241, 
+          "is_complex": false, 
+          "params_ci_1": {}, 
+          "params_ci_2": {}, 
+          "params_url": "https://teof.internal.ericsson.com/eris/api/ci-relations/1607241/params", 
+          "source": "user", 
+          "source_name": "nrjyoyo", 
+          "type_relation": "https://teof.internal.ericsson.com/eris/api/ci-type-relations/764", 
+          "url": "https://teof.internal.ericsson.com/eris/api/ci-relations/1607241"
+        }, 
+        {
+          "ci_1": "46594", 
+          "ci_1_type_name": "CORE_NETWORK", 
+          "ci_2": "AMF110", 
+          "ci_2_type_name": "AMF", 
+          "ci_url_1": "https://teof.internal.ericsson.com/eris/api/ci/46594", 
+          "ci_url_2": "https://teof.internal.ericsson.com/eris/api/ci/AMF110", 
+          "id": 1653996, 
+          "is_complex": false, 
+          "params_ci_1": {}, 
+          "params_ci_2": {}, 
+          "params_url": "https://teof.internal.ericsson.com/eris/api/ci-relations/1653996/params", 
+          "source": "user", 
+          "source_name": "epkheke", 
+          "type_relation": "https://teof.internal.ericsson.com/eris/api/ci-type-relations/1507", 
+          "url": "https://teof.internal.ericsson.com/eris/api/ci-relations/1653996"
+        }
+      ], 
+      "relation_types": "https://teof.internal.ericsson.com/eris/api/ci-type-relations/allowed/CORE_NETWORK", 
+      "relations": "https://teof.internal.ericsson.com/eris/api/ci-relations/?ci=46594&timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+      "source": "user", 
+      "source_name": "epntraa", 
+      "status": "Busy", 
+      "url": "https://teof.internal.ericsson.com/eris/api/ci/46594?timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+      "utilization": "No data", 
+      "utilization_failure": {}
+    }, 
+    {
+      "characteristic": "physical", 
+      "characteristic_source": "default_by_type", 
+      "characteristic_source_is_external": false, 
+      "ci_type": "https://teof.internal.ericsson.com/eris/api/ci-types/SGW", 
+      "exists_in_equipman": false, 
+      "exists_in_hydra": false, 
+      "exists_in_taxen": false, 
+      "gic_position": null, 
+      "hns_name": false, 
+      "id": 348157, 
+      "latest_sync_info": {
+        "EQUIPMAN": "Thu, 03 Sep 2020 07:10:49 GMT"
+      }, 
+      "modified_url": "https://teof.internal.ericsson.com/eris/api/ci/EPG157/modified?timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+      "name": "EPG157", 
+      "params": {}, 
+      "params_url": "https://teof.internal.ericsson.com/eris/api/ci/EPG157/params", 
+      "pooled": false, 
+      "related_ci": "https://teof.internal.ericsson.com/eris/api/ci/?related_ci=EPG157&timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+      "related_test_plan_info": {
+        "SEROITSTP00323": "https://teof.internal.ericsson.com/eris/api/test-plans/SEROITSTP00323?timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+        "SEROITSTP00324": "https://teof.internal.ericsson.com/eris/api/test-plans/SEROITSTP00324?timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+        "SEROITSTP00326": "https://teof.internal.ericsson.com/eris/api/test-plans/SEROITSTP00326?timestamp=2021-10-11T06%3A29%3A15%2B00%3A00"
+      }, 
+      "related_test_plans": "https://teof.internal.ericsson.com/eris/api/test-plans/?ci=EPG157&timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+      "relation_list": [
+        {
+          "ci_1": "mme157", 
+          "ci_1_type_name": "SGSN", 
+          "ci_2": "EPG157", 
+          "ci_2_type_name": "SGW", 
+          "ci_url_1": "https://teof.internal.ericsson.com/eris/api/ci/mme157", 
+          "ci_url_2": "https://teof.internal.ericsson.com/eris/api/ci/EPG157", 
+          "id": 1317020, 
+          "is_complex": false, 
+          "params_ci_1": {}, 
+          "params_ci_2": {}, 
+          "params_url": "https://teof.internal.ericsson.com/eris/api/ci-relations/1317020/params", 
+          "source": "user", 
+          "source_name": "eupadee", 
+          "type_relation": "https://teof.internal.ericsson.com/eris/api/ci-type-relations/86", 
+          "url": "https://teof.internal.ericsson.com/eris/api/ci-relations/1317020"
+        }
+      ], 
+      "relation_types": "https://teof.internal.ericsson.com/eris/api/ci-type-relations/allowed/SGW", 
+      "relations": "https://teof.internal.ericsson.com/eris/api/ci-relations/?ci=EPG157&timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+      "source": "user", 
+      "source_name": "eupadee", 
+      "status": "Busy", 
+      "url": "https://teof.internal.ericsson.com/eris/api/ci/EPG157?timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+      "utilization": "No data", 
+      "utilization_failure": {}
+    }, 
+    {
+      "characteristic": "physical", 
+      "characteristic_source": "default_by_type", 
+      "characteristic_source_is_external": false, 
+      "ci_type": "https://teof.internal.ericsson.com/eris/api/ci-types/SGSN", 
+      "exists_in_equipman": false, 
+      "exists_in_hydra": false, 
+      "exists_in_taxen": false, 
+      "gic_position": null, 
+      "hns_name": false, 
+      "id": 348156, 
+      "latest_sync_info": {
+        "EQUIPMAN": "Wed, 10 Feb 2021 23:01:42 GMT"
+      }, 
+      "modified_url": "https://teof.internal.ericsson.com/eris/api/ci/mme157/modified?timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+      "name": "mme157", 
+      "params": {}, 
+      "params_url": "https://teof.internal.ericsson.com/eris/api/ci/mme157/params", 
+      "pooled": false, 
+      "related_ci": "https://teof.internal.ericsson.com/eris/api/ci/?related_ci=mme157&timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+      "related_test_plan_info": {
+        "SEROITSTP00323": "https://teof.internal.ericsson.com/eris/api/test-plans/SEROITSTP00323?timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+        "SEROITSTP00324": "https://teof.internal.ericsson.com/eris/api/test-plans/SEROITSTP00324?timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+        "SEROITSTP00326": "https://teof.internal.ericsson.com/eris/api/test-plans/SEROITSTP00326?timestamp=2021-10-11T06%3A29%3A15%2B00%3A00"
+      }, 
+      "related_test_plans": "https://teof.internal.ericsson.com/eris/api/test-plans/?ci=mme157&timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+      "relation_list": [
+        {
+          "ci_1": "mme157", 
+          "ci_1_type_name": "SGSN", 
+          "ci_2": "EPG157", 
+          "ci_2_type_name": "SGW", 
+          "ci_url_1": "https://teof.internal.ericsson.com/eris/api/ci/mme157", 
+          "ci_url_2": "https://teof.internal.ericsson.com/eris/api/ci/EPG157", 
+          "id": 1317020, 
+          "is_complex": false, 
+          "params_ci_1": {}, 
+          "params_ci_2": {}, 
+          "params_url": "https://teof.internal.ericsson.com/eris/api/ci-relations/1317020/params", 
+          "source": "user", 
+          "source_name": "eupadee", 
+          "type_relation": "https://teof.internal.ericsson.com/eris/api/ci-type-relations/86", 
+          "url": "https://teof.internal.ericsson.com/eris/api/ci-relations/1317020"
+        }
+      ], 
+      "relation_types": "https://teof.internal.ericsson.com/eris/api/ci-type-relations/allowed/SGSN", 
+      "relations": "https://teof.internal.ericsson.com/eris/api/ci-relations/?ci=mme157&timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+      "source": "user", 
+      "source_name": "eupadee", 
+      "status": "Busy", 
+      "url": "https://teof.internal.ericsson.com/eris/api/ci/mme157?timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+      "utilization": "No data", 
+      "utilization_failure": {}
+    }, 
+    {
+      "characteristic": "physical", 
+      "characteristic_source": "Hydra", 
+      "characteristic_source_is_external": true, 
+      "ci_type": "https://teof.internal.ericsson.com/eris/api/ci-types/RPC", 
+      "exists_in_equipman": true, 
+      "exists_in_hydra": true, 
+      "exists_in_taxen": false, 
+      "gic_position": 0.0151515151515152, 
+      "hns_name": false, 
+      "id": 300368, 
+      "latest_sync_info": {
+        "EQUIPMAN": "Fri, 08 Jan 2021 16:28:05 GMT", 
+        "HYDRA": "Fri, 08 Jan 2021 16:28:05 GMT"
+      }, 
+      "modified_url": "https://teof.internal.ericsson.com/eris/api/ci/seroiarpc00310/modified?timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+      "name": "seroiarpc00310", 
+      "params": {
+        "BAMS ID": {
+          "id": 8424702, 
+          "source": "script", 
+          "source_name": "HYDRA", 
+          "value": "BAMS-1001955687"
+        }, 
+        "Functional designation": {
+          "id": 8424708, 
+          "source": "script", 
+          "source_name": "EQUIPMAN-BAMS-ID-IMPORT", 
+          "value": "INTERCEPTOR PDU CONTROLLER"
+        }, 
+        "IP interface": {
+          "id": 9080339, 
+          "source": "script", 
+          "source_name": "HYDRA", 
+          "value": {
+            "0": {
+              "CIDR": {
+                "value": "24"
+              }, 
+              "Default gateway": {
+                "value": "10.137.198.1"
+              }, 
+              "FQDN": {
+                "value": "seroiarpc00310.sero.gic.ericsson.se"
+              }, 
+              "IP": {
+                "value": "10.137.198.47"
+              }, 
+              "Interface": {
+                "value": "Mgmt"
+              }, 
+              "Network Address": {
+                "value": "10.137.198.0"
+              }, 
+              "VLAN Tag": {
+                "value": "110"
+              }
+            }
+          }
+        }, 
+        "Lab status": {
+          "id": 8424709, 
+          "source": "script", 
+          "source_name": "EQUIPMAN-BAMS-ID-IMPORT", 
+          "value": "ACTIVE"
+        }, 
+        "Position": {
+          "id": 8424703, 
+          "source": "script", 
+          "source_name": "EQUIPMAN-BAMS-ID-IMPORT", 
+          "value": "SERO01-03-00-0033/13*010"
+        }, 
+        "Product number": {
+          "id": 8424706, 
+          "source": "script", 
+          "source_name": "EQUIPMAN-BAMS-ID-IMPORT", 
+          "value": "BGM1361011/10"
+        }, 
+        "Rev": {
+          "id": 8424707, 
+          "source": "script", 
+          "source_name": "EQUIPMAN-BAMS-ID-IMPORT", 
+          "value": "R1C"
+        }, 
+        "Serial number": {
+          "id": 8424704, 
+          "source": "script", 
+          "source_name": "EQUIPMAN-BAMS-ID-IMPORT", 
+          "value": "CD3V155695"
+        }, 
+        "Site": {
+          "id": 8424705, 
+          "source": "script", 
+          "source_name": "EQUIPMAN-BAMS-ID-IMPORT", 
+          "value": "SERO01"
+        }
+      }, 
+      "params_url": "https://teof.internal.ericsson.com/eris/api/ci/seroiarpc00310/params", 
+      "pooled": false, 
+      "related_ci": "https://teof.internal.ericsson.com/eris/api/ci/?related_ci=seroiarpc00310&timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+      "related_test_plan_info": {
+        "SEROITSTP00323": "https://teof.internal.ericsson.com/eris/api/test-plans/SEROITSTP00323?timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+        "SEROITSTP00324": "https://teof.internal.ericsson.com/eris/api/test-plans/SEROITSTP00324?timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+        "SEROITSTP00326": "https://teof.internal.ericsson.com/eris/api/test-plans/SEROITSTP00326?timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+        "SEROITSTP00553": "https://teof.internal.ericsson.com/eris/api/test-plans/SEROITSTP00553?timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+        "SEROITSTP00890": "https://teof.internal.ericsson.com/eris/api/test-plans/SEROITSTP00890?timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+        "SEROITSTP01400": "https://teof.internal.ericsson.com/eris/api/test-plans/SEROITSTP01400?timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+        "SEROITSTP01478": "https://teof.internal.ericsson.com/eris/api/test-plans/SEROITSTP01478?timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+        "SEROITSTP01714": "https://teof.internal.ericsson.com/eris/api/test-plans/SEROITSTP01714?timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+        "SEROITSTP01730": "https://teof.internal.ericsson.com/eris/api/test-plans/SEROITSTP01730?timestamp=2021-10-11T06%3A29%3A15%2B00%3A00"
+      }, 
+      "related_test_plans": "https://teof.internal.ericsson.com/eris/api/test-plans/?ci=seroiarpc00310&timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+      "relation_list": [
+        {
+          "ci_1": "seroinmsw33008-2", 
+          "ci_1_type_name": "SWITCH", 
+          "ci_2": "seroiarpc00310", 
+          "ci_2_type_name": "RPC", 
+          "ci_url_1": "https://teof.internal.ericsson.com/eris/api/ci/seroinmsw33008-2", 
+          "ci_url_2": "https://teof.internal.ericsson.com/eris/api/ci/seroiarpc00310", 
+          "id": 1101657, 
+          "is_complex": false, 
+          "params_ci_1": {
+            "Port": "3", 
+            "Port_detailed": {
+              "param_id": 2470, 
+              "qualifier": 2, 
+              "value": "3"
+            }, 
+            "Type": "RJ-45", 
+            "Type_detailed": {
+              "param_id": 2472, 
+              "qualifier": 2, 
+              "value": "RJ-45"
+            }
+          }, 
+          "params_ci_2": {
+            "Port": "Ethernet", 
+            "Port_detailed": {
+              "param_id": 2469, 
+              "qualifier": 1, 
+              "value": "Ethernet"
+            }, 
+            "Type": "RJ-45", 
+            "Type_detailed": {
+              "param_id": 2471, 
+              "qualifier": 1, 
+              "value": "RJ-45"
+            }
+          }, 
+          "params_url": "https://teof.internal.ericsson.com/eris/api/ci-relations/1101657/params", 
+          "source": "script", 
+          "source_name": "HYDRA_RELATIONS", 
+          "type_relation": "https://teof.internal.ericsson.com/eris/api/ci-type-relations/502", 
+          "url": "https://teof.internal.ericsson.com/eris/api/ci-relations/1101657"
+        }, 
+        {
+          "ci_1": "seroitshu00168", 
+          "ci_1_type_name": "SHU", 
+          "ci_2": "seroiarpc00310", 
+          "ci_2_type_name": "RPC", 
+          "ci_url_1": "https://teof.internal.ericsson.com/eris/api/ci/seroitshu00168", 
+          "ci_url_2": "https://teof.internal.ericsson.com/eris/api/ci/seroiarpc00310", 
+          "id": 1101262, 
+          "is_complex": false, 
+          "params_ci_1": {
+            "Port": "A 8", 
+            "Port_detailed": {
+              "param_id": 3433, 
+              "qualifier": 2, 
+              "value": "A 8"
+            }, 
+            "Type": "RJ-45", 
+            "Type_detailed": {
+              "param_id": 3435, 
+              "qualifier": 2, 
+              "value": "RJ-45"
+            }
+          }, 
+          "params_ci_2": {
+            "Port": "ECB2", 
+            "Port_detailed": {
+              "param_id": 3432, 
+              "qualifier": 1, 
+              "value": "ECB2"
+            }, 
+            "Type": "RJ-45", 
+            "Type_detailed": {
+              "param_id": 3434, 
+              "qualifier": 1, 
+              "value": "RJ-45"
+            }
+          }, 
+          "params_url": "https://teof.internal.ericsson.com/eris/api/ci-relations/1101262/params", 
+          "source": "script", 
+          "source_name": "HYDRA_RELATIONS", 
+          "type_relation": "https://teof.internal.ericsson.com/eris/api/ci-type-relations/663", 
+          "url": "https://teof.internal.ericsson.com/eris/api/ci-relations/1101262"
+        }
+      ], 
+      "relation_types": "https://teof.internal.ericsson.com/eris/api/ci-type-relations/allowed/RPC", 
+      "relations": "https://teof.internal.ericsson.com/eris/api/ci-relations/?ci=seroiarpc00310&timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+      "source": "user", 
+      "source_name": "ezelfre", 
+      "status": "Busy", 
+      "url": "https://teof.internal.ericsson.com/eris/api/ci/seroiarpc00310?timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+      "utilization": "No data", 
+      "utilization_failure": {
+        "reason": "Not found in ECUT", 
+        "reason_id": 2
+      }
+    }, 
+    {
+      "characteristic": "physical", 
+      "characteristic_source": "Hydra", 
+      "characteristic_source_is_external": true, 
+      "ci_type": "https://teof.internal.ericsson.com/eris/api/ci-types/SHU", 
+      "exists_in_equipman": true, 
+      "exists_in_hydra": true, 
+      "exists_in_taxen": false, 
+      "gic_position": 0.0148148148148148, 
+      "hns_name": false, 
+      "id": 296355, 
+      "latest_sync_info": {
+        "EQUIPMAN": "Tue, 31 Aug 2021 12:57:17 GMT", 
+        "HYDRA": "Tue, 31 Aug 2021 12:57:17 GMT"
+      }, 
+      "modified_url": "https://teof.internal.ericsson.com/eris/api/ci/seroitshu00168/modified?timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+      "name": "seroitshu00168", 
+      "params": {
+        "BAMS ID": {
+          "id": 8424280, 
+          "source": "script", 
+          "source_name": "HYDRA", 
+          "value": "BAMS-1001943431"
+        }, 
+        "Functional designation": {
+          "id": 8424286, 
+          "source": "script", 
+          "source_name": "EQUIPMAN-BAMS-ID-IMPORT", 
+          "value": "SHU 02 01; SUPPORT HUB UNIT"
+        }, 
+        "IP interface": {
+          "id": 8386530, 
+          "source": "script", 
+          "source_name": "HYDRA", 
+          "value": {}
+        }, 
+        "Lab status": {
+          "id": 8424283, 
+          "source": "script", 
+          "source_name": "EQUIPMAN-BAMS-ID-IMPORT", 
+          "value": "ACTIVE"
+        }, 
+        "Position": {
+          "id": 8581434, 
+          "source": "script", 
+          "source_name": "EQUIPMAN-BAMS-ID-IMPORT", 
+          "value": "SERO01-03-00-0033/13*010"
+        }, 
+        "Product number": {
+          "id": 8424284, 
+          "source": "script", 
+          "source_name": "EQUIPMAN-BAMS-ID-IMPORT", 
+          "value": "BGK 901 18/2"
+        }, 
+        "Rev": {
+          "id": 8424281, 
+          "source": "script", 
+          "source_name": "EQUIPMAN-BAMS-ID-IMPORT", 
+          "value": "R1B"
+        }, 
+        "Serial number": {
+          "id": 8424285, 
+          "source": "script", 
+          "source_name": "EQUIPMAN-BAMS-ID-IMPORT", 
+          "value": "DX10064932"
+        }, 
+        "Site": {
+          "id": 8424282, 
+          "source": "script", 
+          "source_name": "EQUIPMAN-BAMS-ID-IMPORT", 
+          "value": "SERO01"
+        }
+      }, 
+      "params_url": "https://teof.internal.ericsson.com/eris/api/ci/seroitshu00168/params", 
+      "pooled": false, 
+      "related_ci": "https://teof.internal.ericsson.com/eris/api/ci/?related_ci=seroitshu00168&timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+      "related_test_plan_info": {
+        "SEROITSTP00323": "https://teof.internal.ericsson.com/eris/api/test-plans/SEROITSTP00323?timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+        "SEROITSTP00324": "https://teof.internal.ericsson.com/eris/api/test-plans/SEROITSTP00324?timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+        "SEROITSTP00326": "https://teof.internal.ericsson.com/eris/api/test-plans/SEROITSTP00326?timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+        "SEROITSTP00553": "https://teof.internal.ericsson.com/eris/api/test-plans/SEROITSTP00553?timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+        "SEROITSTP00890": "https://teof.internal.ericsson.com/eris/api/test-plans/SEROITSTP00890?timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+        "SEROITSTP01400": "https://teof.internal.ericsson.com/eris/api/test-plans/SEROITSTP01400?timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+        "SEROITSTP01478": "https://teof.internal.ericsson.com/eris/api/test-plans/SEROITSTP01478?timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+        "SEROITSTP01714": "https://teof.internal.ericsson.com/eris/api/test-plans/SEROITSTP01714?timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+        "SEROITSTP01730": "https://teof.internal.ericsson.com/eris/api/test-plans/SEROITSTP01730?timestamp=2021-10-11T06%3A29%3A15%2B00%3A00"
+      }, 
+      "related_test_plans": "https://teof.internal.ericsson.com/eris/api/test-plans/?ci=seroitshu00168&timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+      "relation_list": [
+        {
+          "ci_1": "seroifpdu02316", 
+          "ci_1_type_name": "PDU", 
+          "ci_2": "seroitshu00168", 
+          "ci_2_type_name": "SHU", 
+          "ci_url_1": "https://teof.internal.ericsson.com/eris/api/ci/seroifpdu02316", 
+          "ci_url_2": "https://teof.internal.ericsson.com/eris/api/ci/seroitshu00168", 
+          "id": 1367502, 
+          "is_complex": false, 
+          "params_ci_1": {
+            "Port": "ECB", 
+            "Port_detailed": {
+              "param_id": 2380, 
+              "qualifier": 1, 
+              "value": "ECB"
+            }, 
+            "Type": "RJ-45", 
+            "Type_detailed": {
+              "param_id": 2382, 
+              "qualifier": 1, 
+              "value": "RJ-45"
+            }, 
+            "Value": "PDU 03 01 + ECM 03 06 (BGM 136106/1 + NFS 89973/6)", 
+            "Value_detailed": {
+              "param_id": 2384, 
+              "qualifier": 1, 
+              "value": "PDU 03 01 + ECM 03 06 (BGM 136106/1 + NFS 89973/6)"
+            }
+          }, 
+          "params_ci_2": {
+            "Port": "B 2", 
+            "Port_detailed": {
+              "param_id": 2379, 
+              "qualifier": 2, 
+              "value": "B 2"
+            }, 
+            "Type": "RJ-45", 
+            "Type_detailed": {
+              "param_id": 2381, 
+              "qualifier": 2, 
+              "value": "RJ-45"
+            }
+          }, 
+          "params_url": "https://teof.internal.ericsson.com/eris/api/ci-relations/1367502/params", 
+          "source": "script", 
+          "source_name": "HYDRA_RELATIONS", 
+          "type_relation": "https://teof.internal.ericsson.com/eris/api/ci-type-relations/487", 
+          "url": "https://teof.internal.ericsson.com/eris/api/ci-relations/1367502"
+        }, 
+        {
+          "ci_1": "seroifpdu02315", 
+          "ci_1_type_name": "PDU", 
+          "ci_2": "seroitshu00168", 
+          "ci_2_type_name": "SHU", 
+          "ci_url_1": "https://teof.internal.ericsson.com/eris/api/ci/seroifpdu02315", 
+          "ci_url_2": "https://teof.internal.ericsson.com/eris/api/ci/seroitshu00168", 
+          "id": 1099915, 
+          "is_complex": false, 
+          "params_ci_1": {
+            "Port": "EC", 
+            "Port_detailed": {
+              "param_id": 2380, 
+              "qualifier": 1, 
+              "value": "EC"
+            }, 
+            "Type": "RJ-45", 
+            "Type_detailed": {
+              "param_id": 2382, 
+              "qualifier": 1, 
+              "value": "RJ-45"
+            }
+          }, 
+          "params_ci_2": {
+            "Port": "A 3", 
+            "Port_detailed": {
+              "param_id": 2379, 
+              "qualifier": 2, 
+              "value": "A 3"
+            }, 
+            "Type": "RJ-45", 
+            "Type_detailed": {
+              "param_id": 2381, 
+              "qualifier": 2, 
+              "value": "RJ-45"
+            }
+          }, 
+          "params_url": "https://teof.internal.ericsson.com/eris/api/ci-relations/1099915/params", 
+          "source": "script", 
+          "source_name": "HYDRA_RELATIONS", 
+          "type_relation": "https://teof.internal.ericsson.com/eris/api/ci-type-relations/487", 
+          "url": "https://teof.internal.ericsson.com/eris/api/ci-relations/1099915"
+        }, 
+        {
+          "ci_1": "seroitshu00168", 
+          "ci_1_type_name": "SHU", 
+          "ci_2": "seroiarpc00310", 
+          "ci_2_type_name": "RPC", 
+          "ci_url_1": "https://teof.internal.ericsson.com/eris/api/ci/seroitshu00168", 
+          "ci_url_2": "https://teof.internal.ericsson.com/eris/api/ci/seroiarpc00310", 
+          "id": 1101262, 
+          "is_complex": false, 
+          "params_ci_1": {
+            "Port": "A 8", 
+            "Port_detailed": {
+              "param_id": 3433, 
+              "qualifier": 2, 
+              "value": "A 8"
+            }, 
+            "Type": "RJ-45", 
+            "Type_detailed": {
+              "param_id": 3435, 
+              "qualifier": 2, 
+              "value": "RJ-45"
+            }
+          }, 
+          "params_ci_2": {
+            "Port": "ECB2", 
+            "Port_detailed": {
+              "param_id": 3432, 
+              "qualifier": 1, 
+              "value": "ECB2"
+            }, 
+            "Type": "RJ-45", 
+            "Type_detailed": {
+              "param_id": 3434, 
+              "qualifier": 1, 
+              "value": "RJ-45"
+            }
+          }, 
+          "params_url": "https://teof.internal.ericsson.com/eris/api/ci-relations/1101262/params", 
+          "source": "script", 
+          "source_name": "HYDRA_RELATIONS", 
+          "type_relation": "https://teof.internal.ericsson.com/eris/api/ci-type-relations/663", 
+          "url": "https://teof.internal.ericsson.com/eris/api/ci-relations/1101262"
+        }
+      ], 
+      "relation_types": "https://teof.internal.ericsson.com/eris/api/ci-type-relations/allowed/SHU", 
+      "relations": "https://teof.internal.ericsson.com/eris/api/ci-relations/?ci=seroitshu00168&timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+      "source": "user", 
+      "source_name": "ehojona", 
+      "status": "Busy", 
+      "url": "https://teof.internal.ericsson.com/eris/api/ci/seroitshu00168?timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+      "utilization": "No data", 
+      "utilization_failure": {
+        "reason": "Not found in ECUT", 
+        "reason_id": 2
+      }
+    }, 
+    {
+      "characteristic": "physical", 
+      "characteristic_source": "Hydra", 
+      "characteristic_source_is_external": true, 
+      "ci_type": "https://teof.internal.ericsson.com/eris/api/ci-types/RADIO_UNIT", 
+      "exists_in_equipman": true, 
+      "exists_in_hydra": true, 
+      "exists_in_taxen": false, 
+      "gic_position": 0.4, 
+      "hns_name": false, 
+      "id": 296354, 
+      "latest_sync_info": {
+        "EQUIPMAN": "Mon, 23 Aug 2021 07:39:13 GMT", 
+        "HYDRA": "Mon, 23 Aug 2021 07:39:13 GMT"
+      }, 
+      "modified_url": "https://teof.internal.ericsson.com/eris/api/ci/seroitrru00156/modified?timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+      "name": "seroitrru00156", 
+      "params": {
+        "BAMS ID": {
+          "id": 8386519, 
+          "source": "script", 
+          "source_name": "HYDRA", 
+          "value": "BAMS-1001946262"
+        }, 
+        "Cell parameters": {
+          "id": 9726866, 
+          "source": "script", 
+          "source_name": "ERIS_REF_GROUP", 
+          "value": {
+            "0": {
+              "Bandwidth": {
+                "value": "100 MHz"
+              }, 
+              "Cell Id Group": {
+                "value": "151"
+              }, 
+              "Cell id": {
+                "value": "1"
+              }, 
+              "Configured Max Tx Power": {
+                "value": "20 000 mW"
+              }, 
+              "FDD/TDD": {
+                "value": "TDD"
+              }, 
+              "SectorCarrier / Carrier": {
+                "value": "1"
+              }, 
+              "SectorEquipmentFunction / Sector": {
+                "value": "AAS-1"
+              }, 
+              "Standard": {
+                "value": "TRANSFERRED TO NR CELL PARAMETERS"
+              }, 
+              "Sub Cell Id": {
+                "value": "0"
+              }, 
+              "arfcn": {
+                "value": "636666"
+              }, 
+              "arfcnDL": {
+                "value": "636666"
+              }, 
+              "arfcnUL": {
+                "value": "636666"
+              }
+            }
+          }
+        }, 
+        "Console server address": {
+          "id": 8427159, 
+          "source": "user", 
+          "source_name": "eguasah", 
+          "value": "10.136.71.180 7001"
+        }, 
+        "Functional designation": {
+          "id": 8386522, 
+          "source": "script", 
+          "source_name": "EQUIPMAN-BAMS-ID-IMPORT", 
+          "value": "AIR 6488"
+        }, 
+        "IP interface": {
+          "id": 8427158, 
+          "source": "script", 
+          "source_name": "HYDRA", 
+          "value": {
+            "0": {
+              "CIDR": {
+                "value": "23"
+              }, 
+              "Default gateway": {
+                "value": "10.136.78.1"
+              }, 
+              "FQDN": {
+                "value": "seroitrru00156.npee.sero.gic.ericsson.se"
+              }, 
+              "IP": {
+                "value": "10.136.78.165"
+              }, 
+              "Interface": {
+                "value": "MGMT"
+              }, 
+              "MAC address": {
+                "value": "54:9B:72:71:E1:0E"
+              }, 
+              "Network Address": {
+                "value": "10.136.78.0"
+              }, 
+              "VLAN Tag": {
+                "value": "111"
+              }
+            }
+          }
+        }, 
+        "Lab status": {
+          "id": 8386525, 
+          "source": "script", 
+          "source_name": "EQUIPMAN-BAMS-ID-IMPORT", 
+          "value": "ACTIVE"
+        }, 
+        "NR Cell Parameters": {
+          "id": 9726865, 
+          "source": "script", 
+          "source_name": "ERIS_REF_GROUP", 
+          "value": {
+            "0": {
+              "Division Duplex": {
+                "value": "TDD"
+              }, 
+              "cellLocalId": {
+                "value": 1
+              }, 
+              "configuredMaxTxPower": {
+                "value": "20 000 mW"
+              }, 
+              "nRPCI": {
+                "value": 453
+              }, 
+              "nRSectorCarrierId": {
+                "value": "AAS-1"
+              }, 
+              "sectorEquipmentFunctionId": {
+                "value": "AAS-1"
+              }
+            }
+          }
+        }, 
+        "Position": {
+          "id": 8407993, 
+          "source": "script", 
+          "source_name": "EQUIPMAN-BAMS-ID-IMPORT", 
+          "value": "SERO01-03-00-0033/13*008"
+        }, 
+        "Product number": {
+          "id": 9080166, 
+          "source": "script", 
+          "source_name": "EQUIPMAN-BAMS-ID-IMPORT", 
+          "value": "KRD 901 056/2"
+        }, 
+        "Rev": {
+          "id": 8386524, 
+          "source": "script", 
+          "source_name": "EQUIPMAN-BAMS-ID-IMPORT", 
+          "value": "R1D"
+        }, 
+        "Serial number": {
+          "id": 8386528, 
+          "source": "script", 
+          "source_name": "EQUIPMAN-BAMS-ID-IMPORT", 
+          "value": "C82A584667"
+        }, 
+        "Site": {
+          "id": 8386526, 
+          "source": "script", 
+          "source_name": "EQUIPMAN-BAMS-ID-IMPORT", 
+          "value": "SERO01"
+        }
+      }, 
+      "params_url": "https://teof.internal.ericsson.com/eris/api/ci/seroitrru00156/params", 
+      "pooled": false, 
+      "related_ci": "https://teof.internal.ericsson.com/eris/api/ci/?related_ci=seroitrru00156&timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+      "related_test_plan_info": {
+        "SEROITSTP00323": "https://teof.internal.ericsson.com/eris/api/test-plans/SEROITSTP00323?timestamp=2021-10-11T06%3A29%3A15%2B00%3A00"
+      }, 
+      "related_test_plans": "https://teof.internal.ericsson.com/eris/api/test-plans/?ci=seroitrru00156&timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+      "relation_list": [
+        {
+          "ci_1": "SEROINTCS00048", 
+          "ci_1_type_name": "TELNET_SWITCH", 
+          "ci_2": "seroitrru00156", 
+          "ci_2_type_name": "RADIO_UNIT", 
+          "ci_url_1": "https://teof.internal.ericsson.com/eris/api/ci/SEROINTCS00048", 
+          "ci_url_2": "https://teof.internal.ericsson.com/eris/api/ci/seroitrru00156", 
+          "id": 1100177, 
+          "is_complex": false, 
+          "params_ci_1": {
+            "Port": "1", 
+            "Port_detailed": {
+              "param_id": 2199, 
+              "qualifier": 2, 
+              "value": "1"
+            }, 
+            "Type": "RJ-45", 
+            "Type_detailed": {
+              "param_id": 2201, 
+              "qualifier": 2, 
+              "value": "RJ-45"
+            }
+          }, 
+          "params_ci_2": {
+            "Port": "LMTA", 
+            "Port_detailed": {
+              "param_id": 2200, 
+              "qualifier": 1, 
+              "value": "LMTA"
+            }, 
+            "Type": "RJ-45", 
+            "Type_detailed": {
+              "param_id": 2202, 
+              "qualifier": 1, 
+              "value": "RJ-45"
+            }, 
+            "Value": "FIC", 
+            "Value_detailed": {
+              "param_id": 2204, 
+              "qualifier": 1, 
+              "value": "FIC"
+            }
+          }, 
+          "params_url": "https://teof.internal.ericsson.com/eris/api/ci-relations/1100177/params", 
+          "source": "script", 
+          "source_name": "HYDRA_RELATIONS", 
+          "type_relation": "https://teof.internal.ericsson.com/eris/api/ci-type-relations/457", 
+          "url": "https://teof.internal.ericsson.com/eris/api/ci-relations/1100177"
+        }, 
+        {
+          "ci_1": "seroitsw00074", 
+          "ci_1_type_name": "SWITCH", 
+          "ci_2": "seroitrru00156", 
+          "ci_2_type_name": "RADIO_UNIT", 
+          "ci_url_1": "https://teof.internal.ericsson.com/eris/api/ci/seroitsw00074", 
+          "ci_url_2": "https://teof.internal.ericsson.com/eris/api/ci/seroitrru00156", 
+          "id": 1100176, 
+          "is_complex": false, 
+          "params_ci_1": {
+            "Port": "2", 
+            "Port_detailed": {
+              "param_id": 1209, 
+              "qualifier": 2, 
+              "value": "2"
+            }, 
+            "Type": "RJ-45", 
+            "Type_detailed": {
+              "param_id": 1208, 
+              "qualifier": 2, 
+              "value": "RJ-45"
+            }
+          }, 
+          "params_ci_2": {
+            "Port": "LMTB", 
+            "Port_detailed": {
+              "param_id": 614, 
+              "qualifier": 1, 
+              "value": "LMTB"
+            }, 
+            "Type": "RJ-45", 
+            "Type_detailed": {
+              "param_id": 613, 
+              "qualifier": 1, 
+              "value": "RJ-45"
+            }, 
+            "Value": "FIC", 
+            "Value_detailed": {
+              "param_id": 612, 
+              "qualifier": 1, 
+              "value": "FIC"
+            }
+          }, 
+          "params_url": "https://teof.internal.ericsson.com/eris/api/ci-relations/1100176/params", 
+          "source": "script", 
+          "source_name": "HYDRA_RELATIONS", 
+          "type_relation": "https://teof.internal.ericsson.com/eris/api/ci-type-relations/290", 
+          "url": "https://teof.internal.ericsson.com/eris/api/ci-relations/1100176"
+        }, 
+        {
+          "ci_1": "seroitdu00323", 
+          "ci_1_type_name": "DIGITAL_UNIT", 
+          "ci_2": "seroitrru00156", 
+          "ci_2_type_name": "RADIO_UNIT", 
+          "ci_url_1": "https://teof.internal.ericsson.com/eris/api/ci/seroitdu00323", 
+          "ci_url_2": "https://teof.internal.ericsson.com/eris/api/ci/seroitrru00156", 
+          "id": 1099906, 
+          "is_complex": false, 
+          "params_ci_1": {
+            "Port": "RID", 
+            "Port_detailed": {
+              "param_id": 6, 
+              "qualifier": 1, 
+              "value": "RID"
+            }, 
+            "Type": "SFP+", 
+            "Type_detailed": {
+              "param_id": 7, 
+              "qualifier": 1, 
+              "value": "SFP+"
+            }
+          }, 
+          "params_ci_2": {
+            "Port": "DATA1", 
+            "Port_detailed": {
+              "param_id": 621, 
+              "qualifier": 2, 
+              "value": "DATA1"
+            }, 
+            "Type": "SFP+", 
+            "Type_detailed": {
+              "param_id": 622, 
+              "qualifier": 2, 
+              "value": "SFP+"
+            }
+          }, 
+          "params_url": "https://teof.internal.ericsson.com/eris/api/ci-relations/1099906/params", 
+          "source": "script", 
+          "source_name": "HYDRA_RELATIONS", 
+          "type_relation": "https://teof.internal.ericsson.com/eris/api/ci-type-relations/48", 
+          "url": "https://teof.internal.ericsson.com/eris/api/ci-relations/1099906"
+        }, 
+        {
+          "ci_1": "seroitdu00323", 
+          "ci_1_type_name": "DIGITAL_UNIT", 
+          "ci_2": "seroitrru00156", 
+          "ci_2_type_name": "RADIO_UNIT", 
+          "ci_url_1": "https://teof.internal.ericsson.com/eris/api/ci/seroitdu00323", 
+          "ci_url_2": "https://teof.internal.ericsson.com/eris/api/ci/seroitrru00156", 
+          "id": 1099907, 
+          "is_complex": false, 
+          "params_ci_1": {
+            "Port": "RIE", 
+            "Port_detailed": {
+              "param_id": 6, 
+              "qualifier": 1, 
+              "value": "RIE"
+            }, 
+            "Type": "SFP+", 
+            "Type_detailed": {
+              "param_id": 7, 
+              "qualifier": 1, 
+              "value": "SFP+"
+            }
+          }, 
+          "params_ci_2": {
+            "Port": "DATA2", 
+            "Port_detailed": {
+              "param_id": 621, 
+              "qualifier": 2, 
+              "value": "DATA2"
+            }, 
+            "Type": "SFP+", 
+            "Type_detailed": {
+              "param_id": 622, 
+              "qualifier": 2, 
+              "value": "SFP+"
+            }
+          }, 
+          "params_url": "https://teof.internal.ericsson.com/eris/api/ci-relations/1099907/params", 
+          "source": "script", 
+          "source_name": "HYDRA_RELATIONS", 
+          "type_relation": "https://teof.internal.ericsson.com/eris/api/ci-type-relations/48", 
+          "url": "https://teof.internal.ericsson.com/eris/api/ci-relations/1099907"
+        }, 
+        {
+          "ci_1": "seroitdu00323", 
+          "ci_1_type_name": "DIGITAL_UNIT", 
+          "ci_2": "seroitrru00156", 
+          "ci_2_type_name": "RADIO_UNIT", 
+          "ci_url_1": "https://teof.internal.ericsson.com/eris/api/ci/seroitdu00323", 
+          "ci_url_2": "https://teof.internal.ericsson.com/eris/api/ci/seroitrru00156", 
+          "id": 1099908, 
+          "is_complex": false, 
+          "params_ci_1": {
+            "Port": "RIF", 
+            "Port_detailed": {
+              "param_id": 6, 
+              "qualifier": 1, 
+              "value": "RIF"
+            }, 
+            "Type": "SFP+", 
+            "Type_detailed": {
+              "param_id": 7, 
+              "qualifier": 1, 
+              "value": "SFP+"
+            }
+          }, 
+          "params_ci_2": {
+            "Port": "DATA3", 
+            "Port_detailed": {
+              "param_id": 621, 
+              "qualifier": 2, 
+              "value": "DATA3"
+            }, 
+            "Type": "SFP+", 
+            "Type_detailed": {
+              "param_id": 622, 
+              "qualifier": 2, 
+              "value": "SFP+"
+            }
+          }, 
+          "params_url": "https://teof.internal.ericsson.com/eris/api/ci-relations/1099908/params", 
+          "source": "script", 
+          "source_name": "HYDRA_RELATIONS", 
+          "type_relation": "https://teof.internal.ericsson.com/eris/api/ci-type-relations/48", 
+          "url": "https://teof.internal.ericsson.com/eris/api/ci-relations/1099908"
+        }, 
+        {
+          "ci_1": "seroifpdu02316", 
+          "ci_1_type_name": "PDU", 
+          "ci_2": "seroitrru00156", 
+          "ci_2_type_name": "RADIO_UNIT", 
+          "ci_url_1": "https://teof.internal.ericsson.com/eris/api/ci/seroifpdu02316", 
+          "ci_url_2": "https://teof.internal.ericsson.com/eris/api/ci/seroitrru00156", 
+          "id": 1382016, 
+          "is_complex": false, 
+          "params_ci_1": {
+            "Port": "5", 
+            "Port_detailed": {
+              "param_id": 2397, 
+              "qualifier": 1, 
+              "value": "5"
+            }, 
+            "Type": "Molex Mini Fit Sr 2 pin", 
+            "Type_detailed": {
+              "param_id": 2399, 
+              "qualifier": 1, 
+              "value": "Molex Mini Fit Sr 2 pin"
+            }, 
+            "Value": "PDU 03 01 + ECM 03 06 (BGM 136106/1 + NFS 89973/6)", 
+            "Value_detailed": {
+              "param_id": 2401, 
+              "qualifier": 1, 
+              "value": "PDU 03 01 + ECM 03 06 (BGM 136106/1 + NFS 89973/6)"
+            }
+          }, 
+          "params_ci_2": {
+            "Port": "DC IN", 
+            "Port_detailed": {
+              "param_id": 2398, 
+              "qualifier": 2, 
+              "value": "DC IN"
+            }, 
+            "Type": "DC Connector", 
+            "Type_detailed": {
+              "param_id": 2400, 
+              "qualifier": 2, 
+              "value": "DC Connector"
+            }
+          }, 
+          "params_url": "https://teof.internal.ericsson.com/eris/api/ci-relations/1382016/params", 
+          "source": "script", 
+          "source_name": "HYDRA_RELATIONS", 
+          "type_relation": "https://teof.internal.ericsson.com/eris/api/ci-type-relations/490", 
+          "url": "https://teof.internal.ericsson.com/eris/api/ci-relations/1382016"
+        }
+      ], 
+      "relation_types": "https://teof.internal.ericsson.com/eris/api/ci-type-relations/allowed/RADIO_UNIT", 
+      "relations": "https://teof.internal.ericsson.com/eris/api/ci-relations/?ci=seroitrru00156&timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+      "source": "user", 
+      "source_name": "ehojona", 
+      "status": "Busy", 
+      "url": "https://teof.internal.ericsson.com/eris/api/ci/seroitrru00156?timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+      "utilization": "No data", 
+      "utilization_failure": {
+        "reason": "Not found in ECUT", 
+        "reason_id": 2
+      }
+    }, 
+    {
+      "characteristic": "physical", 
+      "characteristic_source": "Hydra", 
+      "characteristic_source_is_external": true, 
+      "ci_type": "https://teof.internal.ericsson.com/eris/api/ci-types/PDU", 
+      "exists_in_equipman": true, 
+      "exists_in_hydra": true, 
+      "exists_in_taxen": false, 
+      "gic_position": null, 
+      "hns_name": false, 
+      "id": 296353, 
+      "latest_sync_info": {
+        "EQUIPMAN": "Mon, 23 Aug 2021 07:40:01 GMT", 
+        "HYDRA": "Mon, 23 Aug 2021 07:40:01 GMT"
+      }, 
+      "modified_url": "https://teof.internal.ericsson.com/eris/api/ci/seroifpdu02316/modified?timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+      "name": "seroifpdu02316", 
+      "params": {
+        "BAMS ID": {
+          "id": 8534080, 
+          "source": "script", 
+          "source_name": "HYDRA", 
+          "value": "BAMS-1001943234"
+        }, 
+        "Functional designation": {
+          "id": 8534086, 
+          "source": "script", 
+          "source_name": "EQUIPMAN-BAMS-ID-IMPORT", 
+          "value": "PDU 03 01, POWER DISTRIBUTION"
+        }, 
+        "IP interface": {
+          "id": 8386515, 
+          "source": "script", 
+          "source_name": "HYDRA", 
+          "value": {}
+        }, 
+        "Lab status": {
+          "id": 8534085, 
+          "source": "script", 
+          "source_name": "EQUIPMAN-BAMS-ID-IMPORT", 
+          "value": "ACTIVE"
+        }, 
+        "Position": {
+          "id": 8534081, 
+          "source": "script", 
+          "source_name": "EQUIPMAN-BAMS-ID-IMPORT", 
+          "value": "SERO01-03-00-0033/13*010"
+        }, 
+        "Product number": {
+          "id": 8534087, 
+          "source": "script", 
+          "source_name": "EQUIPMAN-BAMS-ID-IMPORT", 
+          "value": "BGM 136 106/1"
+        }, 
+        "Rev": {
+          "id": 8534084, 
+          "source": "script", 
+          "source_name": "EQUIPMAN-BAMS-ID-IMPORT", 
+          "value": "R1F"
+        }, 
+        "Serial number": {
+          "id": 8534088, 
+          "source": "script", 
+          "source_name": "EQUIPMAN-BAMS-ID-IMPORT", 
+          "value": "X053336045"
+        }, 
+        "Site": {
+          "id": 8534083, 
+          "source": "script", 
+          "source_name": "EQUIPMAN-BAMS-ID-IMPORT", 
+          "value": "SERO01"
+        }
+      }, 
+      "params_url": "https://teof.internal.ericsson.com/eris/api/ci/seroifpdu02316/params", 
+      "pooled": false, 
+      "related_ci": "https://teof.internal.ericsson.com/eris/api/ci/?related_ci=seroifpdu02316&timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+      "related_test_plan_info": {
+        "SEROITSTP00323": "https://teof.internal.ericsson.com/eris/api/test-plans/SEROITSTP00323?timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+        "SEROITSTP00324": "https://teof.internal.ericsson.com/eris/api/test-plans/SEROITSTP00324?timestamp=2021-10-11T06%3A29%3A15%2B00%3A00"
+      }, 
+      "related_test_plans": "https://teof.internal.ericsson.com/eris/api/test-plans/?ci=seroifpdu02316&timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+      "relation_list": [
+        {
+          "ci_1": "seroifpdu02316", 
+          "ci_1_type_name": "PDU", 
+          "ci_2": "seroitrru00156", 
+          "ci_2_type_name": "RADIO_UNIT", 
+          "ci_url_1": "https://teof.internal.ericsson.com/eris/api/ci/seroifpdu02316", 
+          "ci_url_2": "https://teof.internal.ericsson.com/eris/api/ci/seroitrru00156", 
+          "id": 1382016, 
+          "is_complex": false, 
+          "params_ci_1": {
+            "Port": "5", 
+            "Port_detailed": {
+              "param_id": 2397, 
+              "qualifier": 1, 
+              "value": "5"
+            }, 
+            "Type": "Molex Mini Fit Sr 2 pin", 
+            "Type_detailed": {
+              "param_id": 2399, 
+              "qualifier": 1, 
+              "value": "Molex Mini Fit Sr 2 pin"
+            }, 
+            "Value": "PDU 03 01 + ECM 03 06 (BGM 136106/1 + NFS 89973/6)", 
+            "Value_detailed": {
+              "param_id": 2401, 
+              "qualifier": 1, 
+              "value": "PDU 03 01 + ECM 03 06 (BGM 136106/1 + NFS 89973/6)"
+            }
+          }, 
+          "params_ci_2": {
+            "Port": "DC IN", 
+            "Port_detailed": {
+              "param_id": 2398, 
+              "qualifier": 2, 
+              "value": "DC IN"
+            }, 
+            "Type": "DC Connector", 
+            "Type_detailed": {
+              "param_id": 2400, 
+              "qualifier": 2, 
+              "value": "DC Connector"
+            }
+          }, 
+          "params_url": "https://teof.internal.ericsson.com/eris/api/ci-relations/1382016/params", 
+          "source": "script", 
+          "source_name": "HYDRA_RELATIONS", 
+          "type_relation": "https://teof.internal.ericsson.com/eris/api/ci-type-relations/490", 
+          "url": "https://teof.internal.ericsson.com/eris/api/ci-relations/1382016"
+        }, 
+        {
+          "ci_1": "seroifpdu02316", 
+          "ci_1_type_name": "PDU", 
+          "ci_2": "seroitshu00168", 
+          "ci_2_type_name": "SHU", 
+          "ci_url_1": "https://teof.internal.ericsson.com/eris/api/ci/seroifpdu02316", 
+          "ci_url_2": "https://teof.internal.ericsson.com/eris/api/ci/seroitshu00168", 
+          "id": 1367502, 
+          "is_complex": false, 
+          "params_ci_1": {
+            "Port": "ECB", 
+            "Port_detailed": {
+              "param_id": 2380, 
+              "qualifier": 1, 
+              "value": "ECB"
+            }, 
+            "Type": "RJ-45", 
+            "Type_detailed": {
+              "param_id": 2382, 
+              "qualifier": 1, 
+              "value": "RJ-45"
+            }, 
+            "Value": "PDU 03 01 + ECM 03 06 (BGM 136106/1 + NFS 89973/6)", 
+            "Value_detailed": {
+              "param_id": 2384, 
+              "qualifier": 1, 
+              "value": "PDU 03 01 + ECM 03 06 (BGM 136106/1 + NFS 89973/6)"
+            }
+          }, 
+          "params_ci_2": {
+            "Port": "B 2", 
+            "Port_detailed": {
+              "param_id": 2379, 
+              "qualifier": 2, 
+              "value": "B 2"
+            }, 
+            "Type": "RJ-45", 
+            "Type_detailed": {
+              "param_id": 2381, 
+              "qualifier": 2, 
+              "value": "RJ-45"
+            }
+          }, 
+          "params_url": "https://teof.internal.ericsson.com/eris/api/ci-relations/1367502/params", 
+          "source": "script", 
+          "source_name": "HYDRA_RELATIONS", 
+          "type_relation": "https://teof.internal.ericsson.com/eris/api/ci-type-relations/487", 
+          "url": "https://teof.internal.ericsson.com/eris/api/ci-relations/1367502"
+        }
+      ], 
+      "relation_types": "https://teof.internal.ericsson.com/eris/api/ci-type-relations/allowed/PDU", 
+      "relations": "https://teof.internal.ericsson.com/eris/api/ci-relations/?ci=seroifpdu02316&timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+      "source": "user", 
+      "source_name": "ehojona", 
+      "status": "Maintenance", 
+      "url": "https://teof.internal.ericsson.com/eris/api/ci/seroifpdu02316?timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+      "utilization": "No data", 
+      "utilization_failure": {
+        "reason": "Not found in ECUT", 
+        "reason_id": 2
+      }
+    }, 
+    {
+      "characteristic": "physical", 
+      "characteristic_source": "Hydra", 
+      "characteristic_source_is_external": true, 
+      "ci_type": "https://teof.internal.ericsson.com/eris/api/ci-types/SHIELDEDBOX", 
+      "exists_in_equipman": true, 
+      "exists_in_hydra": true, 
+      "exists_in_taxen": false, 
+      "gic_position": 0.0476190476190476, 
+      "hns_name": false, 
+      "id": 296352, 
+      "latest_sync_info": {
+        "EQUIPMAN": "Thu, 19 Dec 2019 16:47:41 GMT", 
+        "HYDRA": "Thu, 19 Dec 2019 16:47:41 GMT"
+      }, 
+      "modified_url": "https://teof.internal.ericsson.com/eris/api/ci/seroiarfbx00194/modified?timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+      "name": "seroiarfbx00194", 
+      "params": {
+        "BAMS ID": {
+          "id": 8587075, 
+          "source": "script", 
+          "source_name": "HYDRA", 
+          "value": "BAMS-1001909585"
+        }, 
+        "Functional designation": {
+          "id": 8386510, 
+          "source": "script", 
+          "source_name": "EQUIPMAN-BAMS-ID-IMPORT", 
+          "value": "SHIELDED BOX"
+        }, 
+        "Lab status": {
+          "id": 8386512, 
+          "source": "script", 
+          "source_name": "EQUIPMAN-BAMS-ID-IMPORT", 
+          "value": "ACTIVE"
+        }, 
+        "Position": {
+          "id": 8587077, 
+          "source": "script", 
+          "source_name": "EQUIPMAN-BAMS-ID-IMPORT", 
+          "value": "SERO01-03-00-0033/13*008"
+        }, 
+        "Product number": {
+          "id": 9137074, 
+          "source": "script", 
+          "source_name": "EQUIPMAN-BAMS-ID-IMPORT", 
+          "value": "TF268 01"
+        }, 
+        "Serial number": {
+          "id": 8587076, 
+          "source": "script", 
+          "source_name": "EQUIPMAN-BAMS-ID-IMPORT", 
+          "value": "1076"
+        }, 
+        "Site": {
+          "id": 8386509, 
+          "source": "script", 
+          "source_name": "EQUIPMAN-BAMS-ID-IMPORT", 
+          "value": "SERO01"
+        }
+      }, 
+      "params_url": "https://teof.internal.ericsson.com/eris/api/ci/seroiarfbx00194/params", 
+      "pooled": false, 
+      "related_ci": "https://teof.internal.ericsson.com/eris/api/ci/?related_ci=seroiarfbx00194&timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+      "related_test_plan_info": {
+        "SEROITSTP00323": "https://teof.internal.ericsson.com/eris/api/test-plans/SEROITSTP00323?timestamp=2021-10-11T06%3A29%3A15%2B00%3A00"
+      }, 
+      "related_test_plans": "https://teof.internal.ericsson.com/eris/api/test-plans/?ci=seroiarfbx00194&timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+      "relation_list": [], 
+      "relation_types": "https://teof.internal.ericsson.com/eris/api/ci-type-relations/allowed/SHIELDEDBOX", 
+      "relations": "https://teof.internal.ericsson.com/eris/api/ci-relations/?ci=seroiarfbx00194&timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+      "source": "user", 
+      "source_name": "ehojona", 
+      "status": "Maintenance", 
+      "url": "https://teof.internal.ericsson.com/eris/api/ci/seroiarfbx00194?timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+      "utilization": "No data", 
+      "utilization_failure": {
+        "reason": "Not found in ECUT", 
+        "reason_id": 2
+      }
+    }, 
+    {
+      "characteristic": "physical", 
+      "characteristic_source": "Hydra", 
+      "characteristic_source_is_external": true, 
+      "ci_type": "https://teof.internal.ericsson.com/eris/api/ci-types/TELNET_SWITCH", 
+      "exists_in_equipman": true, 
+      "exists_in_hydra": true, 
+      "exists_in_taxen": false, 
+      "gic_position": 0.0296296296296296, 
+      "hns_name": false, 
+      "id": 296177, 
+      "latest_sync_info": {
+        "EQUIPMAN": "Tue, 27 Jul 2021 08:59:55 GMT", 
+        "HYDRA": "Tue, 27 Jul 2021 08:59:55 GMT"
+      }, 
+      "modified_url": "https://teof.internal.ericsson.com/eris/api/ci/serointcs00210/modified?timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+      "name": "serointcs00210", 
+      "params": {
+        "BAMS ID": {
+          "id": 8384758, 
+          "source": "script", 
+          "source_name": "HYDRA", 
+          "value": "BAMS-1001985156"
+        }, 
+        "Functional designation": {
+          "id": 8384764, 
+          "source": "script", 
+          "source_name": "EQUIPMAN-BAMS-ID-IMPORT", 
+          "value": "AVOCENT ACS 8048"
+        }, 
+        "IP interface": {
+          "id": 8410369, 
+          "source": "script", 
+          "source_name": "HYDRA", 
+          "value": {
+            "0": {
+              "CIDR": {
+                "value": "25"
+              }, 
+              "Default gateway": {
+                "value": "10.136.71.129"
+              }, 
+              "FQDN": {
+                "value": "serointcs00210.npee.sero.gic.ericsson.se"
+              }, 
+              "IP": {
+                "value": "10.136.71.185"
+              }, 
+              "Interface": {
+                "value": "mgmt"
+              }, 
+              "Network Address": {
+                "value": "10.136.71.128"
+              }, 
+              "VLAN Tag": {
+                "value": "107"
+              }
+            }
+          }
+        }, 
+        "Lab status": {
+          "id": 8384760, 
+          "source": "script", 
+          "source_name": "EQUIPMAN-BAMS-ID-IMPORT", 
+          "value": "ACTIVE"
+        }, 
+        "Position": {
+          "id": 8523681, 
+          "source": "script", 
+          "source_name": "EQUIPMAN-BAMS-ID-IMPORT", 
+          "value": "SERO01-03-00-0033/13*010"
+        }, 
+        "Serial number": {
+          "id": 8384761, 
+          "source": "script", 
+          "source_name": "EQUIPMAN-BAMS-ID-IMPORT", 
+          "value": "0520282048"
+        }, 
+        "Site": {
+          "id": 8384763, 
+          "source": "script", 
+          "source_name": "EQUIPMAN-BAMS-ID-IMPORT", 
+          "value": "SERO01"
+        }
+      }, 
+      "params_url": "https://teof.internal.ericsson.com/eris/api/ci/serointcs00210/params", 
+      "pooled": false, 
+      "related_ci": "https://teof.internal.ericsson.com/eris/api/ci/?related_ci=serointcs00210&timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+      "related_test_plan_info": {
+        "NPEE_SERO_TS33_INFRA": "https://teof.internal.ericsson.com/eris/api/test-plans/NPEE_SERO_TS33_INFRA?timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+        "SEROITSTP00323": "https://teof.internal.ericsson.com/eris/api/test-plans/SEROITSTP00323?timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+        "SEROITSTP00324": "https://teof.internal.ericsson.com/eris/api/test-plans/SEROITSTP00324?timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+        "SEROITSTP00326": "https://teof.internal.ericsson.com/eris/api/test-plans/SEROITSTP00326?timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+        "SEROITSTP00553": "https://teof.internal.ericsson.com/eris/api/test-plans/SEROITSTP00553?timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+        "SEROITSTP00875": "https://teof.internal.ericsson.com/eris/api/test-plans/SEROITSTP00875?timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+        "SEROITSTP00877": "https://teof.internal.ericsson.com/eris/api/test-plans/SEROITSTP00877?timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+        "SEROITSTP00890": "https://teof.internal.ericsson.com/eris/api/test-plans/SEROITSTP00890?timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+        "SEROITSTP01400": "https://teof.internal.ericsson.com/eris/api/test-plans/SEROITSTP01400?timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+        "SEROITSTP01478": "https://teof.internal.ericsson.com/eris/api/test-plans/SEROITSTP01478?timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+        "SEROITSTP01714": "https://teof.internal.ericsson.com/eris/api/test-plans/SEROITSTP01714?timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+        "SEROITSTP01730": "https://teof.internal.ericsson.com/eris/api/test-plans/SEROITSTP01730?timestamp=2021-10-11T06%3A29%3A15%2B00%3A00"
+      }, 
+      "related_test_plans": "https://teof.internal.ericsson.com/eris/api/test-plans/?ci=serointcs00210&timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+      "relation_list": [
+        {
+          "ci_1": "seroitdu00323", 
+          "ci_1_type_name": "DIGITAL_UNIT", 
+          "ci_2": "serointcs00210", 
+          "ci_2_type_name": "TELNET_SWITCH", 
+          "ci_url_1": "https://teof.internal.ericsson.com/eris/api/ci/seroitdu00323", 
+          "ci_url_2": "https://teof.internal.ericsson.com/eris/api/ci/serointcs00210", 
+          "id": 1079723, 
+          "is_complex": false, 
+          "params_ci_1": {
+            "Port": "LMTA", 
+            "Port_detailed": {
+              "param_id": 1249, 
+              "qualifier": 1, 
+              "value": "LMTA"
+            }, 
+            "Value": "Logical", 
+            "Value_detailed": {
+              "param_id": 1251, 
+              "qualifier": 1, 
+              "value": "Logical"
+            }
+          }, 
+          "params_ci_2": {
+            "Port": "1", 
+            "Port_detailed": {
+              "param_id": 1250, 
+              "qualifier": 2, 
+              "value": "1"
+            }, 
+            "Value": "Logical", 
+            "Value_detailed": {
+              "param_id": 1252, 
+              "qualifier": 2, 
+              "value": "Logical"
+            }
+          }, 
+          "params_url": "https://teof.internal.ericsson.com/eris/api/ci-relations/1079723/params", 
+          "source": "user", 
+          "source_name": "ehojona", 
+          "type_relation": "https://teof.internal.ericsson.com/eris/api/ci-type-relations/298", 
+          "url": "https://teof.internal.ericsson.com/eris/api/ci-relations/1079723"
+        }, 
+        {
+          "ci_1": "seroitdu00323", 
+          "ci_1_type_name": "DIGITAL_UNIT", 
+          "ci_2": "serointcs00210", 
+          "ci_2_type_name": "TELNET_SWITCH", 
+          "ci_url_1": "https://teof.internal.ericsson.com/eris/api/ci/seroitdu00323", 
+          "ci_url_2": "https://teof.internal.ericsson.com/eris/api/ci/serointcs00210", 
+          "id": 1418188, 
+          "is_complex": true, 
+          "params_ci_1": {
+            "Port": "LMT A", 
+            "Port_detailed": {
+              "param_id": 1249, 
+              "qualifier": 1, 
+              "value": "LMT A"
+            }, 
+            "Type": "RJ-45", 
+            "Type_detailed": {
+              "param_id": 1253, 
+              "qualifier": 1, 
+              "value": "RJ-45"
+            }
+          }, 
+          "params_ci_2": {
+            "Port": "1", 
+            "Port_detailed": {
+              "param_id": 1250, 
+              "qualifier": 2, 
+              "value": "1"
+            }, 
+            "Type": "RJ-45", 
+            "Type_detailed": {
+              "param_id": 1254, 
+              "qualifier": 2, 
+              "value": "RJ-45"
+            }
+          }, 
+          "params_url": "https://teof.internal.ericsson.com/eris/api/ci-relations/1418188/params", 
+          "source": "script", 
+          "source_name": "HYDRA_RELATIONS", 
+          "type_relation": "https://teof.internal.ericsson.com/eris/api/ci-type-relations/298", 
+          "url": "https://teof.internal.ericsson.com/eris/api/ci-relations/1418188"
+        }, 
+        {
+          "ci_1": "serointsw00576", 
+          "ci_1_type_name": "SWITCH", 
+          "ci_2": "serointcs00210", 
+          "ci_2_type_name": "TELNET_SWITCH", 
+          "ci_url_1": "https://teof.internal.ericsson.com/eris/api/ci/serointsw00576", 
+          "ci_url_2": "https://teof.internal.ericsson.com/eris/api/ci/serointcs00210", 
+          "id": 1120494, 
+          "is_complex": false, 
+          "params_ci_1": {
+            "Port": "47", 
+            "Port_detailed": {
+              "param_id": 2451, 
+              "qualifier": 1, 
+              "value": "47"
+            }, 
+            "Type": "RJ-45", 
+            "Type_detailed": {
+              "param_id": 2453, 
+              "qualifier": 1, 
+              "value": "RJ-45"
+            }
+          }, 
+          "params_ci_2": {
+            "Port": "LAN 1", 
+            "Port_detailed": {
+              "param_id": 2452, 
+              "qualifier": 2, 
+              "value": "LAN 1"
+            }, 
+            "Type": "RJ-45", 
+            "Type_detailed": {
+              "param_id": 2454, 
+              "qualifier": 2, 
+              "value": "RJ-45"
+            }
+          }, 
+          "params_url": "https://teof.internal.ericsson.com/eris/api/ci-relations/1120494/params", 
+          "source": "script", 
+          "source_name": "HYDRA_RELATIONS", 
+          "type_relation": "https://teof.internal.ericsson.com/eris/api/ci-type-relations/499", 
+          "url": "https://teof.internal.ericsson.com/eris/api/ci-relations/1120494"
+        }
+      ], 
+      "relation_types": "https://teof.internal.ericsson.com/eris/api/ci-type-relations/allowed/TELNET_SWITCH", 
+      "relations": "https://teof.internal.ericsson.com/eris/api/ci-relations/?ci=serointcs00210&timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+      "source": "user", 
+      "source_name": "ehojona", 
+      "status": "Busy", 
+      "url": "https://teof.internal.ericsson.com/eris/api/ci/serointcs00210?timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+      "utilization": "No data", 
+      "utilization_failure": {
+        "reason": "Not found in ECUT", 
+        "reason_id": 2
+      }
+    }, 
+    {
+      "characteristic": "physical", 
+      "characteristic_source": "Hydra", 
+      "characteristic_source_is_external": true, 
+      "ci_type": "https://teof.internal.ericsson.com/eris/api/ci-types/SPLITTER_NW", 
+      "exists_in_equipman": false, 
+      "exists_in_hydra": true, 
+      "exists_in_taxen": false, 
+      "gic_position": 0.0151515151515152, 
+      "hns_name": false, 
+      "id": 296176, 
+      "latest_sync_info": {
+        "HYDRA": "Fri, 10 Jul 2020 07:18:38 GMT"
+      }, 
+      "modified_url": "https://teof.internal.ericsson.com/eris/api/ci/seroitlmt00244/modified?timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+      "name": "seroitlmt00244", 
+      "params": {}, 
+      "params_url": "https://teof.internal.ericsson.com/eris/api/ci/seroitlmt00244/params", 
+      "pooled": false, 
+      "related_ci": "https://teof.internal.ericsson.com/eris/api/ci/?related_ci=seroitlmt00244&timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+      "related_test_plan_info": {
+        "SEROITSTP00323": "https://teof.internal.ericsson.com/eris/api/test-plans/SEROITSTP00323?timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+        "SEROITSTP00324": "https://teof.internal.ericsson.com/eris/api/test-plans/SEROITSTP00324?timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+        "SEROITSTP00326": "https://teof.internal.ericsson.com/eris/api/test-plans/SEROITSTP00326?timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+        "SEROITSTP00875": "https://teof.internal.ericsson.com/eris/api/test-plans/SEROITSTP00875?timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+        "SEROITSTP00877": "https://teof.internal.ericsson.com/eris/api/test-plans/SEROITSTP00877?timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+        "SEROITSTP00890": "https://teof.internal.ericsson.com/eris/api/test-plans/SEROITSTP00890?timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+        "SEROITSTP01400": "https://teof.internal.ericsson.com/eris/api/test-plans/SEROITSTP01400?timestamp=2021-10-11T06%3A29%3A15%2B00%3A00"
+      }, 
+      "related_test_plans": "https://teof.internal.ericsson.com/eris/api/test-plans/?ci=seroitlmt00244&timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+      "relation_list": [], 
+      "relation_types": "https://teof.internal.ericsson.com/eris/api/ci-type-relations/allowed/SPLITTER_NW", 
+      "relations": "https://teof.internal.ericsson.com/eris/api/ci-relations/?ci=seroitlmt00244&timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+      "source": "user", 
+      "source_name": "ehojona", 
+      "status": "Busy", 
+      "url": "https://teof.internal.ericsson.com/eris/api/ci/seroitlmt00244?timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+      "utilization": "No data", 
+      "utilization_failure": {}
+    }, 
+    {
+      "characteristic": "physical", 
+      "characteristic_source": "Hydra", 
+      "characteristic_source_is_external": true, 
+      "ci_type": "https://teof.internal.ericsson.com/eris/api/ci-types/GPS_SPLITTER", 
+      "exists_in_equipman": false, 
+      "exists_in_hydra": true, 
+      "exists_in_taxen": false, 
+      "gic_position": 0.0303030303030303, 
+      "hns_name": false, 
+      "id": 296175, 
+      "latest_sync_info": {
+        "HYDRA": "Fri, 08 Jan 2021 16:27:33 GMT"
+      }, 
+      "modified_url": "https://teof.internal.ericsson.com/eris/api/ci/seroitgpsrc00154/modified?timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+      "name": "seroitgpsrc00154", 
+      "params": {
+        "IP interface": {
+          "id": 8384817, 
+          "source": "script", 
+          "source_name": "HYDRA", 
+          "value": {}
+        }
+      }, 
+      "params_url": "https://teof.internal.ericsson.com/eris/api/ci/seroitgpsrc00154/params", 
+      "pooled": false, 
+      "related_ci": "https://teof.internal.ericsson.com/eris/api/ci/?related_ci=seroitgpsrc00154&timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+      "related_test_plan_info": {
+        "SEROITSTP00323": "https://teof.internal.ericsson.com/eris/api/test-plans/SEROITSTP00323?timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+        "SEROITSTP00324": "https://teof.internal.ericsson.com/eris/api/test-plans/SEROITSTP00324?timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+        "SEROITSTP00326": "https://teof.internal.ericsson.com/eris/api/test-plans/SEROITSTP00326?timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+        "SEROITSTP00553": "https://teof.internal.ericsson.com/eris/api/test-plans/SEROITSTP00553?timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+        "SEROITSTP00875": "https://teof.internal.ericsson.com/eris/api/test-plans/SEROITSTP00875?timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+        "SEROITSTP00877": "https://teof.internal.ericsson.com/eris/api/test-plans/SEROITSTP00877?timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+        "SEROITSTP00890": "https://teof.internal.ericsson.com/eris/api/test-plans/SEROITSTP00890?timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+        "SEROITSTP01400": "https://teof.internal.ericsson.com/eris/api/test-plans/SEROITSTP01400?timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+        "SEROITSTP01478": "https://teof.internal.ericsson.com/eris/api/test-plans/SEROITSTP01478?timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+        "SEROITSTP01714": "https://teof.internal.ericsson.com/eris/api/test-plans/SEROITSTP01714?timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+        "SEROITSTP01730": "https://teof.internal.ericsson.com/eris/api/test-plans/SEROITSTP01730?timestamp=2021-10-11T06%3A29%3A15%2B00%3A00"
+      }, 
+      "related_test_plans": "https://teof.internal.ericsson.com/eris/api/test-plans/?ci=seroitgpsrc00154&timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+      "relation_list": [
+        {
+          "ci_1": "seroitdu00323", 
+          "ci_1_type_name": "DIGITAL_UNIT", 
+          "ci_2": "seroitgpsrc00154", 
+          "ci_2_type_name": "GPS_SPLITTER", 
+          "ci_url_1": "https://teof.internal.ericsson.com/eris/api/ci/seroitdu00323", 
+          "ci_url_2": "https://teof.internal.ericsson.com/eris/api/ci/seroitgpsrc00154", 
+          "id": 1099909, 
+          "is_complex": false, 
+          "params_ci_1": {
+            "Port": "SYNC", 
+            "Port_detailed": {
+              "param_id": 1369, 
+              "qualifier": 1, 
+              "value": "SYNC"
+            }, 
+            "Type": "RJ-45", 
+            "Type_detailed": {
+              "param_id": 1373, 
+              "qualifier": 1, 
+              "value": "RJ-45"
+            }
+          }, 
+          "params_ci_2": {
+            "Port": "1", 
+            "Port_detailed": {
+              "param_id": 1370, 
+              "qualifier": 2, 
+              "value": "1"
+            }, 
+            "Type": "RJ-45", 
+            "Type_detailed": {
+              "param_id": 1374, 
+              "qualifier": 2, 
+              "value": "RJ-45"
+            }, 
+            "Value": "1", 
+            "Value_detailed": {
+              "param_id": 1372, 
+              "qualifier": 2, 
+              "value": "1"
+            }
+          }, 
+          "params_url": "https://teof.internal.ericsson.com/eris/api/ci-relations/1099909/params", 
+          "source": "script", 
+          "source_name": "HYDRA_RELATIONS", 
+          "type_relation": "https://teof.internal.ericsson.com/eris/api/ci-type-relations/318", 
+          "url": "https://teof.internal.ericsson.com/eris/api/ci-relations/1099909"
+        }
+      ], 
+      "relation_types": "https://teof.internal.ericsson.com/eris/api/ci-type-relations/allowed/GPS_SPLITTER", 
+      "relations": "https://teof.internal.ericsson.com/eris/api/ci-relations/?ci=seroitgpsrc00154&timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+      "source": "user", 
+      "source_name": "ehojona", 
+      "status": "Busy", 
+      "url": "https://teof.internal.ericsson.com/eris/api/ci/seroitgpsrc00154?timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+      "utilization": "No data", 
+      "utilization_failure": {}
+    }, 
+    {
+      "characteristic": "physical", 
+      "characteristic_source": "Hydra", 
+      "characteristic_source_is_external": true, 
+      "ci_type": "https://teof.internal.ericsson.com/eris/api/ci-types/PDU", 
+      "exists_in_equipman": true, 
+      "exists_in_hydra": true, 
+      "exists_in_taxen": false, 
+      "gic_position": 0.0148148148148148, 
+      "hns_name": false, 
+      "id": 296174, 
+      "latest_sync_info": {
+        "EQUIPMAN": "Tue, 31 Aug 2021 12:55:01 GMT", 
+        "HYDRA": "Tue, 31 Aug 2021 12:55:01 GMT"
+      }, 
+      "modified_url": "https://teof.internal.ericsson.com/eris/api/ci/seroifpdu02315/modified?timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+      "name": "seroifpdu02315", 
+      "params": {
+        "BAMS ID": {
+          "id": 8478828, 
+          "source": "script", 
+          "source_name": "HYDRA", 
+          "value": "BAMS-1001992016"
+        }, 
+        "Functional designation": {
+          "id": 9416064, 
+          "source": "script", 
+          "source_name": "EQUIPMAN-BAMS-ID-IMPORT", 
+          "value": "PDU 02 02; POWER DISTRIBUTION"
+        }, 
+        "IP interface": {
+          "id": 8384738, 
+          "source": "script", 
+          "source_name": "HYDRA", 
+          "value": {}
+        }, 
+        "Lab status": {
+          "id": 8478829, 
+          "source": "script", 
+          "source_name": "EQUIPMAN-BAMS-ID-IMPORT", 
+          "value": "ACTIVE"
+        }, 
+        "Position": {
+          "id": 8478833, 
+          "source": "script", 
+          "source_name": "EQUIPMAN-BAMS-ID-IMPORT", 
+          "value": "SERO01-03-00-0033/13*010"
+        }, 
+        "Product number": {
+          "id": 8478832, 
+          "source": "script", 
+          "source_name": "EQUIPMAN-BAMS-ID-IMPORT", 
+          "value": "BMG 980 336/5"
+        }, 
+        "Rev": {
+          "id": 9083993, 
+          "source": "script", 
+          "source_name": "EQUIPMAN-BAMS-ID-IMPORT", 
+          "value": "R2B"
+        }, 
+        "Serial number": {
+          "id": 8478834, 
+          "source": "script", 
+          "source_name": "EQUIPMAN-BAMS-ID-IMPORT", 
+          "value": "X053241139"
+        }, 
+        "Site": {
+          "id": 8478831, 
+          "source": "script", 
+          "source_name": "EQUIPMAN-BAMS-ID-IMPORT", 
+          "value": "SERO01"
+        }
+      }, 
+      "params_url": "https://teof.internal.ericsson.com/eris/api/ci/seroifpdu02315/params", 
+      "pooled": false, 
+      "related_ci": "https://teof.internal.ericsson.com/eris/api/ci/?related_ci=seroifpdu02315&timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+      "related_test_plan_info": {
+        "SEROITSTP00323": "https://teof.internal.ericsson.com/eris/api/test-plans/SEROITSTP00323?timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+        "SEROITSTP00324": "https://teof.internal.ericsson.com/eris/api/test-plans/SEROITSTP00324?timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+        "SEROITSTP00326": "https://teof.internal.ericsson.com/eris/api/test-plans/SEROITSTP00326?timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+        "SEROITSTP00553": "https://teof.internal.ericsson.com/eris/api/test-plans/SEROITSTP00553?timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+        "SEROITSTP00875": "https://teof.internal.ericsson.com/eris/api/test-plans/SEROITSTP00875?timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+        "SEROITSTP00877": "https://teof.internal.ericsson.com/eris/api/test-plans/SEROITSTP00877?timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+        "SEROITSTP00890": "https://teof.internal.ericsson.com/eris/api/test-plans/SEROITSTP00890?timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+        "SEROITSTP01400": "https://teof.internal.ericsson.com/eris/api/test-plans/SEROITSTP01400?timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+        "SEROITSTP01714": "https://teof.internal.ericsson.com/eris/api/test-plans/SEROITSTP01714?timestamp=2021-10-11T06%3A29%3A15%2B00%3A00"
+      }, 
+      "related_test_plans": "https://teof.internal.ericsson.com/eris/api/test-plans/?ci=seroifpdu02315&timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+      "relation_list": [
+        {
+          "ci_1": "seroitdu00323", 
+          "ci_1_type_name": "DIGITAL_UNIT", 
+          "ci_2": "seroifpdu02315", 
+          "ci_2_type_name": "PDU", 
+          "ci_url_1": "https://teof.internal.ericsson.com/eris/api/ci/seroitdu00323", 
+          "ci_url_2": "https://teof.internal.ericsson.com/eris/api/ci/seroifpdu02315", 
+          "id": 1099911, 
+          "is_complex": false, 
+          "params_ci_1": {
+            "Port": "-48VA", 
+            "Port_detailed": {
+              "param_id": 2392, 
+              "qualifier": 1, 
+              "value": "-48VA"
+            }, 
+            "Type": "DC Connector", 
+            "Type_detailed": {
+              "param_id": 2394, 
+              "qualifier": 1, 
+              "value": "DC Connector"
+            }
+          }, 
+          "params_ci_2": {
+            "Port": "1", 
+            "Port_detailed": {
+              "param_id": 2391, 
+              "qualifier": 2, 
+              "value": "1"
+            }, 
+            "Type": "ET20 A", 
+            "Type_detailed": {
+              "param_id": 2393, 
+              "qualifier": 2, 
+              "value": "ET20 A"
+            }
+          }, 
+          "params_url": "https://teof.internal.ericsson.com/eris/api/ci-relations/1099911/params", 
+          "source": "script", 
+          "source_name": "HYDRA_RELATIONS", 
+          "type_relation": "https://teof.internal.ericsson.com/eris/api/ci-type-relations/489", 
+          "url": "https://teof.internal.ericsson.com/eris/api/ci-relations/1099911"
+        }, 
+        {
+          "ci_1": "seroifpdu02315", 
+          "ci_1_type_name": "PDU", 
+          "ci_2": "seroitshu00168", 
+          "ci_2_type_name": "SHU", 
+          "ci_url_1": "https://teof.internal.ericsson.com/eris/api/ci/seroifpdu02315", 
+          "ci_url_2": "https://teof.internal.ericsson.com/eris/api/ci/seroitshu00168", 
+          "id": 1099915, 
+          "is_complex": false, 
+          "params_ci_1": {
+            "Port": "EC", 
+            "Port_detailed": {
+              "param_id": 2380, 
+              "qualifier": 1, 
+              "value": "EC"
+            }, 
+            "Type": "RJ-45", 
+            "Type_detailed": {
+              "param_id": 2382, 
+              "qualifier": 1, 
+              "value": "RJ-45"
+            }
+          }, 
+          "params_ci_2": {
+            "Port": "A 3", 
+            "Port_detailed": {
+              "param_id": 2379, 
+              "qualifier": 2, 
+              "value": "A 3"
+            }, 
+            "Type": "RJ-45", 
+            "Type_detailed": {
+              "param_id": 2381, 
+              "qualifier": 2, 
+              "value": "RJ-45"
+            }
+          }, 
+          "params_url": "https://teof.internal.ericsson.com/eris/api/ci-relations/1099915/params", 
+          "source": "script", 
+          "source_name": "HYDRA_RELATIONS", 
+          "type_relation": "https://teof.internal.ericsson.com/eris/api/ci-type-relations/487", 
+          "url": "https://teof.internal.ericsson.com/eris/api/ci-relations/1099915"
+        }
+      ], 
+      "relation_types": "https://teof.internal.ericsson.com/eris/api/ci-type-relations/allowed/PDU", 
+      "relations": "https://teof.internal.ericsson.com/eris/api/ci-relations/?ci=seroifpdu02315&timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+      "source": "user", 
+      "source_name": "ehojona", 
+      "status": "Busy", 
+      "url": "https://teof.internal.ericsson.com/eris/api/ci/seroifpdu02315?timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+      "utilization": "No data", 
+      "utilization_failure": {
+        "reason": "Not found in ECUT", 
+        "reason_id": 2
+      }
+    }, 
+    {
+      "characteristic": "physical", 
+      "characteristic_source": "Hydra", 
+      "characteristic_source_is_external": true, 
+      "ci_type": "https://teof.internal.ericsson.com/eris/api/ci-types/SWITCH", 
+      "exists_in_equipman": true, 
+      "exists_in_hydra": true, 
+      "exists_in_taxen": false, 
+      "gic_position": 0.0296296296296296, 
+      "hns_name": false, 
+      "id": 291842, 
+      "latest_sync_info": {
+        "EQUIPMAN": "Tue, 05 Oct 2021 12:41:46 GMT", 
+        "HYDRA": "Tue, 05 Oct 2021 12:41:46 GMT"
+      }, 
+      "modified_url": "https://teof.internal.ericsson.com/eris/api/ci/seroinmsw33008-2/modified?timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+      "name": "seroinmsw33008-2", 
+      "params": {
+        "BAMS ID": {
+          "id": 8424696, 
+          "source": "script", 
+          "source_name": "HYDRA", 
+          "value": "BAMS-1001934694"
+        }, 
+        "Functional designation": {
+          "id": 8424698, 
+          "source": "script", 
+          "source_name": "EQUIPMAN-BAMS-ID-IMPORT", 
+          "value": "JUNIPER EX3400-48T"
+        }, 
+        "GST Responsible": {
+          "id": 8424695, 
+          "source": "script", 
+          "source_name": "HYDRA", 
+          "value": "GSS Network"
+        }, 
+        "IP interface": {
+          "id": 8424694, 
+          "source": "script", 
+          "source_name": "HYDRA", 
+          "value": {}
+        }, 
+        "Lab status": {
+          "id": 8424699, 
+          "source": "script", 
+          "source_name": "EQUIPMAN-BAMS-ID-IMPORT", 
+          "value": "ACTIVE"
+        }, 
+        "Position": {
+          "id": 8583939, 
+          "source": "script", 
+          "source_name": "EQUIPMAN-BAMS-ID-IMPORT", 
+          "value": "SERO01-03-00-0033/13*009"
+        }, 
+        "Serial number": {
+          "id": 8424701, 
+          "source": "script", 
+          "source_name": "EQUIPMAN-BAMS-ID-IMPORT", 
+          "value": "NX0218490086"
+        }, 
+        "Site": {
+          "id": 8424700, 
+          "source": "script", 
+          "source_name": "EQUIPMAN-BAMS-ID-IMPORT", 
+          "value": "SERO01"
+        }
+      }, 
+      "params_url": "https://teof.internal.ericsson.com/eris/api/ci/seroinmsw33008-2/params", 
+      "pooled": false, 
+      "related_ci": "https://teof.internal.ericsson.com/eris/api/ci/?related_ci=seroinmsw33008-2&timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+      "related_test_plan_info": {
+        "SEROITSTP00323": "https://teof.internal.ericsson.com/eris/api/test-plans/SEROITSTP00323?timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+        "SEROITSTP00324": "https://teof.internal.ericsson.com/eris/api/test-plans/SEROITSTP00324?timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+        "SEROITSTP00326": "https://teof.internal.ericsson.com/eris/api/test-plans/SEROITSTP00326?timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+        "SEROITSTP00553": "https://teof.internal.ericsson.com/eris/api/test-plans/SEROITSTP00553?timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+        "SEROITSTP00675": "https://teof.internal.ericsson.com/eris/api/test-plans/SEROITSTP00675?timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+        "SEROITSTP00676": "https://teof.internal.ericsson.com/eris/api/test-plans/SEROITSTP00676?timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+        "SEROITSTP00678": "https://teof.internal.ericsson.com/eris/api/test-plans/SEROITSTP00678?timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+        "SEROITSTP00686": "https://teof.internal.ericsson.com/eris/api/test-plans/SEROITSTP00686?timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+        "SEROITSTP00687": "https://teof.internal.ericsson.com/eris/api/test-plans/SEROITSTP00687?timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+        "SEROITSTP00688": "https://teof.internal.ericsson.com/eris/api/test-plans/SEROITSTP00688?timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+        "SEROITSTP00890": "https://teof.internal.ericsson.com/eris/api/test-plans/SEROITSTP00890?timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+        "SEROITSTP01236": "https://teof.internal.ericsson.com/eris/api/test-plans/SEROITSTP01236?timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+        "SEROITSTP01400": "https://teof.internal.ericsson.com/eris/api/test-plans/SEROITSTP01400?timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+        "SEROITSTP01478": "https://teof.internal.ericsson.com/eris/api/test-plans/SEROITSTP01478?timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+        "SEROITSTP01714": "https://teof.internal.ericsson.com/eris/api/test-plans/SEROITSTP01714?timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+        "SEROITSTP01730": "https://teof.internal.ericsson.com/eris/api/test-plans/SEROITSTP01730?timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+        "SEROITSTP01817": "https://teof.internal.ericsson.com/eris/api/test-plans/SEROITSTP01817?timestamp=2021-10-11T06%3A29%3A15%2B00%3A00"
+      }, 
+      "related_test_plans": "https://teof.internal.ericsson.com/eris/api/test-plans/?ci=seroinmsw33008-2&timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+      "relation_list": [
+        {
+          "ci_1": "serointsw00537", 
+          "ci_1_type_name": "SWITCH", 
+          "ci_2": "seroinmsw33008-2", 
+          "ci_2_type_name": "SWITCH", 
+          "ci_url_1": "https://teof.internal.ericsson.com/eris/api/ci/serointsw00537", 
+          "ci_url_2": "https://teof.internal.ericsson.com/eris/api/ci/seroinmsw33008-2", 
+          "id": 1102093, 
+          "is_complex": false, 
+          "params_ci_1": {
+            "Port": "C0", 
+            "Port_detailed": {
+              "param_id": 3909, 
+              "qualifier": 2, 
+              "value": "C0"
+            }, 
+            "Type": "RJ-45", 
+            "Type_detailed": {
+              "param_id": 3908, 
+              "qualifier": 2, 
+              "value": "RJ-45"
+            }
+          }, 
+          "params_ci_2": {
+            "Port": "0", 
+            "Port_detailed": {
+              "param_id": 156, 
+              "qualifier": 1, 
+              "value": "0"
+            }, 
+            "Type": "RJ-45", 
+            "Type_detailed": {
+              "param_id": 157, 
+              "qualifier": 1, 
+              "value": "RJ-45"
+            }
+          }, 
+          "params_url": "https://teof.internal.ericsson.com/eris/api/ci-relations/1102093/params", 
+          "source": "script", 
+          "source_name": "HYDRA_RELATIONS", 
+          "type_relation": "https://teof.internal.ericsson.com/eris/api/ci-type-relations/113", 
+          "url": "https://teof.internal.ericsson.com/eris/api/ci-relations/1102093"
+        }, 
+        {
+          "ci_1": "serointsw00576", 
+          "ci_1_type_name": "SWITCH", 
+          "ci_2": "seroinmsw33008-2", 
+          "ci_2_type_name": "SWITCH", 
+          "ci_url_1": "https://teof.internal.ericsson.com/eris/api/ci/serointsw00576", 
+          "ci_url_2": "https://teof.internal.ericsson.com/eris/api/ci/seroinmsw33008-2", 
+          "id": 1102094, 
+          "is_complex": false, 
+          "params_ci_1": {
+            "Port": "Mgmt", 
+            "Port_detailed": {
+              "param_id": 3909, 
+              "qualifier": 2, 
+              "value": "Mgmt"
+            }, 
+            "Type": "RJ-45", 
+            "Type_detailed": {
+              "param_id": 3908, 
+              "qualifier": 2, 
+              "value": "RJ-45"
+            }
+          }, 
+          "params_ci_2": {
+            "Port": "1", 
+            "Port_detailed": {
+              "param_id": 156, 
+              "qualifier": 1, 
+              "value": "1"
+            }, 
+            "Type": "RJ-45", 
+            "Type_detailed": {
+              "param_id": 157, 
+              "qualifier": 1, 
+              "value": "RJ-45"
+            }
+          }, 
+          "params_url": "https://teof.internal.ericsson.com/eris/api/ci-relations/1102094/params", 
+          "source": "script", 
+          "source_name": "HYDRA_RELATIONS", 
+          "type_relation": "https://teof.internal.ericsson.com/eris/api/ci-type-relations/113", 
+          "url": "https://teof.internal.ericsson.com/eris/api/ci-relations/1102094"
+        }, 
+        {
+          "ci_1": "seroinmsw33008-2", 
+          "ci_1_type_name": "SWITCH", 
+          "ci_2": "seroiarpc00310", 
+          "ci_2_type_name": "RPC", 
+          "ci_url_1": "https://teof.internal.ericsson.com/eris/api/ci/seroinmsw33008-2", 
+          "ci_url_2": "https://teof.internal.ericsson.com/eris/api/ci/seroiarpc00310", 
+          "id": 1101657, 
+          "is_complex": false, 
+          "params_ci_1": {
+            "Port": "3", 
+            "Port_detailed": {
+              "param_id": 2470, 
+              "qualifier": 2, 
+              "value": "3"
+            }, 
+            "Type": "RJ-45", 
+            "Type_detailed": {
+              "param_id": 2472, 
+              "qualifier": 2, 
+              "value": "RJ-45"
+            }
+          }, 
+          "params_ci_2": {
+            "Port": "Ethernet", 
+            "Port_detailed": {
+              "param_id": 2469, 
+              "qualifier": 1, 
+              "value": "Ethernet"
+            }, 
+            "Type": "RJ-45", 
+            "Type_detailed": {
+              "param_id": 2471, 
+              "qualifier": 1, 
+              "value": "RJ-45"
+            }
+          }, 
+          "params_url": "https://teof.internal.ericsson.com/eris/api/ci-relations/1101657/params", 
+          "source": "script", 
+          "source_name": "HYDRA_RELATIONS", 
+          "type_relation": "https://teof.internal.ericsson.com/eris/api/ci-type-relations/502", 
+          "url": "https://teof.internal.ericsson.com/eris/api/ci-relations/1101657"
+        }
+      ], 
+      "relation_types": "https://teof.internal.ericsson.com/eris/api/ci-type-relations/allowed/SWITCH", 
+      "relations": "https://teof.internal.ericsson.com/eris/api/ci-relations/?ci=seroinmsw33008-2&timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+      "source": "script", 
+      "source_name": "river_lethe", 
+      "status": "Busy", 
+      "url": "https://teof.internal.ericsson.com/eris/api/ci/seroinmsw33008-2?timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+      "utilization": "No data", 
+      "utilization_failure": {
+        "reason": "Not found in ECUT", 
+        "reason_id": 2
+      }
+    }, 
+    {
+      "characteristic": "physical", 
+      "characteristic_source": "Hydra", 
+      "characteristic_source_is_external": true, 
+      "ci_type": "https://teof.internal.ericsson.com/eris/api/ci-types/SWITCH", 
+      "exists_in_equipman": true, 
+      "exists_in_hydra": true, 
+      "exists_in_taxen": false, 
+      "gic_position": 0.0296296296296296, 
+      "hns_name": false, 
+      "id": 253508, 
+      "latest_sync_info": {
+        "EQUIPMAN": "Wed, 16 Jun 2021 13:06:31 GMT", 
+        "HYDRA": "Wed, 16 Jun 2021 13:06:31 GMT"
+      }, 
+      "modified_url": "https://teof.internal.ericsson.com/eris/api/ci/serointsw00604/modified?timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+      "name": "serointsw00604", 
+      "params": {
+        "BAMS ID": {
+          "id": 8383526, 
+          "source": "script", 
+          "source_name": "HYDRA", 
+          "value": "BAMS-1001986959"
+        }, 
+        "EST Responsible": {
+          "id": 9335504, 
+          "source": "script", 
+          "source_name": "HYDRA", 
+          "value": "DSI NW Area"
+        }, 
+        "Functional designation": {
+          "id": 8383532, 
+          "source": "script", 
+          "source_name": "EQUIPMAN-BAMS-ID-IMPORT", 
+          "value": "JUNIPER EX4300-32F"
+        }, 
+        "GST Responsible": {
+          "id": 8383528, 
+          "source": "script", 
+          "source_name": "HYDRA", 
+          "value": "GST - GIC RO GST6"
+        }, 
+        "IP interface": {
+          "id": 8402852, 
+          "source": "script", 
+          "source_name": "HYDRA", 
+          "value": {
+            "0": {
+              "CIDR": {
+                "value": "24"
+              }, 
+              "Default gateway": {
+                "value": "10.128.237.1"
+              }, 
+              "FQDN": {
+                "value": "serointsw00604.sero.gic.ericsson.se"
+              }, 
+              "IP": {
+                "value": "10.128.237.173"
+              }, 
+              "Interface": {
+                "value": "mgmt"
+              }, 
+              "Network Address": {
+                "value": "10.128.237.0"
+              }, 
+              "VLAN Tag": {
+                "value": "104"
+              }
+            }
+          }
+        }, 
+        "Lab status": {
+          "id": 8383534, 
+          "source": "script", 
+          "source_name": "EQUIPMAN-BAMS-ID-IMPORT", 
+          "value": "ACTIVE"
+        }, 
+        "Position": {
+          "id": 8383533, 
+          "source": "script", 
+          "source_name": "EQUIPMAN-BAMS-ID-IMPORT", 
+          "value": "SERO01-03-00-0033/13*026"
+        }, 
+        "Product number": {
+          "id": 8656236, 
+          "source": "script", 
+          "source_name": "EQUIPMAN-BAMS-ID-IMPORT", 
+          "value": "EX4300-32F"
+        }, 
+        "Serial number": {
+          "id": 8383530, 
+          "source": "script", 
+          "source_name": "EQUIPMAN-BAMS-ID-IMPORT", 
+          "value": "STW3118510420"
+        }, 
+        "Site": {
+          "id": 8383531, 
+          "source": "script", 
+          "source_name": "EQUIPMAN-BAMS-ID-IMPORT", 
+          "value": "SERO01"
+        }
+      }, 
+      "params_url": "https://teof.internal.ericsson.com/eris/api/ci/serointsw00604/params", 
+      "pooled": false, 
+      "related_ci": "https://teof.internal.ericsson.com/eris/api/ci/?related_ci=serointsw00604&timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+      "related_test_plan_info": {
+        "NPEE_SERO_TS33_INFRA": "https://teof.internal.ericsson.com/eris/api/test-plans/NPEE_SERO_TS33_INFRA?timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+        "SEROITSTP00323": "https://teof.internal.ericsson.com/eris/api/test-plans/SEROITSTP00323?timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+        "SEROITSTP00324": "https://teof.internal.ericsson.com/eris/api/test-plans/SEROITSTP00324?timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+        "SEROITSTP00326": "https://teof.internal.ericsson.com/eris/api/test-plans/SEROITSTP00326?timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+        "SEROITSTP00553": "https://teof.internal.ericsson.com/eris/api/test-plans/SEROITSTP00553?timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+        "SEROITSTP00619": "https://teof.internal.ericsson.com/eris/api/test-plans/SEROITSTP00619?timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+        "SEROITSTP00647": "https://teof.internal.ericsson.com/eris/api/test-plans/SEROITSTP00647?timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+        "SEROITSTP00864": "https://teof.internal.ericsson.com/eris/api/test-plans/SEROITSTP00864?timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+        "SEROITSTP00886": "https://teof.internal.ericsson.com/eris/api/test-plans/SEROITSTP00886?timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+        "SEROITSTP00890": "https://teof.internal.ericsson.com/eris/api/test-plans/SEROITSTP00890?timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+        "SEROITSTP01400": "https://teof.internal.ericsson.com/eris/api/test-plans/SEROITSTP01400?timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+        "SEROITSTP01478": "https://teof.internal.ericsson.com/eris/api/test-plans/SEROITSTP01478?timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+        "SEROITSTP01668": "https://teof.internal.ericsson.com/eris/api/test-plans/SEROITSTP01668?timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+        "SEROITSTP01677": "https://teof.internal.ericsson.com/eris/api/test-plans/SEROITSTP01677?timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+        "SEROITSTP01714": "https://teof.internal.ericsson.com/eris/api/test-plans/SEROITSTP01714?timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+        "SEROITSTP01730": "https://teof.internal.ericsson.com/eris/api/test-plans/SEROITSTP01730?timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+        "SEROITSTP01817": "https://teof.internal.ericsson.com/eris/api/test-plans/SEROITSTP01817?timestamp=2021-10-11T06%3A29%3A15%2B00%3A00"
+      }, 
+      "related_test_plans": "https://teof.internal.ericsson.com/eris/api/test-plans/?ci=serointsw00604&timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+      "relation_list": [
+        {
+          "ci_1": "seroitsw00074", 
+          "ci_1_type_name": "SWITCH", 
+          "ci_2": "serointsw00604", 
+          "ci_2_type_name": "SWITCH", 
+          "ci_url_1": "https://teof.internal.ericsson.com/eris/api/ci/seroitsw00074", 
+          "ci_url_2": "https://teof.internal.ericsson.com/eris/api/ci/serointsw00604", 
+          "id": 1109646, 
+          "is_complex": false, 
+          "params_ci_1": {
+            "Port": "9", 
+            "Port_detailed": {
+              "param_id": 3909, 
+              "qualifier": 2, 
+              "value": "9"
+            }, 
+            "Type": "SFP", 
+            "Type_detailed": {
+              "param_id": 3908, 
+              "qualifier": 2, 
+              "value": "SFP"
+            }
+          }, 
+          "params_ci_2": {
+            "Port": "2", 
+            "Port_detailed": {
+              "param_id": 156, 
+              "qualifier": 1, 
+              "value": "2"
+            }, 
+            "Type": "SFP", 
+            "Type_detailed": {
+              "param_id": 157, 
+              "qualifier": 1, 
+              "value": "SFP"
+            }
+          }, 
+          "params_url": "https://teof.internal.ericsson.com/eris/api/ci-relations/1109646/params", 
+          "source": "script", 
+          "source_name": "HYDRA_RELATIONS", 
+          "type_relation": "https://teof.internal.ericsson.com/eris/api/ci-type-relations/113", 
+          "url": "https://teof.internal.ericsson.com/eris/api/ci-relations/1109646"
+        }
+      ], 
+      "relation_types": "https://teof.internal.ericsson.com/eris/api/ci-type-relations/allowed/SWITCH", 
+      "relations": "https://teof.internal.ericsson.com/eris/api/ci-relations/?ci=serointsw00604&timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+      "source": "script", 
+      "source_name": "river_lethe", 
+      "status": "Busy", 
+      "url": "https://teof.internal.ericsson.com/eris/api/ci/serointsw00604?timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+      "utilization": "No data", 
+      "utilization_failure": {
+        "reason": "Not found in ECUT", 
+        "reason_id": 2
+      }
+    }, 
+    {
+      "characteristic": "physical", 
+      "characteristic_source": "Hydra", 
+      "characteristic_source_is_external": true, 
+      "ci_type": "https://teof.internal.ericsson.com/eris/api/ci-types/SWITCH", 
+      "exists_in_equipman": true, 
+      "exists_in_hydra": true, 
+      "exists_in_taxen": false, 
+      "gic_position": 0.0303030303030303, 
+      "hns_name": false, 
+      "id": 253482, 
+      "latest_sync_info": {
+        "EQUIPMAN": "Fri, 08 Jan 2021 16:27:47 GMT", 
+        "HYDRA": "Fri, 08 Jan 2021 16:27:47 GMT"
+      }, 
+      "modified_url": "https://teof.internal.ericsson.com/eris/api/ci/serointsw00576/modified?timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+      "name": "serointsw00576", 
+      "params": {
+        "BAMS ID": {
+          "id": 8384776, 
+          "source": "script", 
+          "source_name": "HYDRA", 
+          "value": "BAMS-1001985188"
+        }, 
+        "EST Responsible": {
+          "id": 9322428, 
+          "source": "script", 
+          "source_name": "HYDRA", 
+          "value": "DSI NW Area"
+        }, 
+        "Functional designation": {
+          "id": 8384780, 
+          "source": "script", 
+          "source_name": "EQUIPMAN-BAMS-ID-IMPORT", 
+          "value": "JUNIPER EX3400-48T"
+        }, 
+        "GST Responsible": {
+          "id": 8384778, 
+          "source": "script", 
+          "source_name": "HYDRA", 
+          "value": "GST - GIC RO GST6"
+        }, 
+        "IP interface": {
+          "id": 8386518, 
+          "source": "script", 
+          "source_name": "HYDRA", 
+          "value": {
+            "0": {
+              "CIDR": {
+                "value": "24"
+              }, 
+              "Default gateway": {
+                "value": "10.128.237.1"
+              }, 
+              "FQDN": {
+                "value": "serointsw00576.sero.gic.ericsson.se"
+              }, 
+              "IP": {
+                "value": "10.128.237.109"
+              }, 
+              "Interface": {
+                "value": "Mgmt"
+              }, 
+              "Network Address": {
+                "value": "10.128.237.0"
+              }, 
+              "VLAN Tag": {
+                "value": "104"
+              }
+            }
+          }
+        }, 
+        "Lab status": {
+          "id": 8384781, 
+          "source": "script", 
+          "source_name": "EQUIPMAN-BAMS-ID-IMPORT", 
+          "value": "ACTIVE"
+        }, 
+        "Position": {
+          "id": 8384783, 
+          "source": "script", 
+          "source_name": "EQUIPMAN-BAMS-ID-IMPORT", 
+          "value": "SERO01-03-00-0033/13*010"
+        }, 
+        "Serial number": {
+          "id": 8384782, 
+          "source": "script", 
+          "source_name": "EQUIPMAN-BAMS-ID-IMPORT", 
+          "value": "SNX0219180203"
+        }, 
+        "Site": {
+          "id": 8384779, 
+          "source": "script", 
+          "source_name": "EQUIPMAN-BAMS-ID-IMPORT", 
+          "value": "SERO01"
+        }
+      }, 
+      "params_url": "https://teof.internal.ericsson.com/eris/api/ci/serointsw00576/params", 
+      "pooled": false, 
+      "related_ci": "https://teof.internal.ericsson.com/eris/api/ci/?related_ci=serointsw00576&timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+      "related_test_plan_info": {
+        "NPEE_SERO_TS33_INFRA": "https://teof.internal.ericsson.com/eris/api/test-plans/NPEE_SERO_TS33_INFRA?timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+        "SEROITSTP00323": "https://teof.internal.ericsson.com/eris/api/test-plans/SEROITSTP00323?timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+        "SEROITSTP00324": "https://teof.internal.ericsson.com/eris/api/test-plans/SEROITSTP00324?timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+        "SEROITSTP00326": "https://teof.internal.ericsson.com/eris/api/test-plans/SEROITSTP00326?timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+        "SEROITSTP00553": "https://teof.internal.ericsson.com/eris/api/test-plans/SEROITSTP00553?timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+        "SEROITSTP00875": "https://teof.internal.ericsson.com/eris/api/test-plans/SEROITSTP00875?timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+        "SEROITSTP00877": "https://teof.internal.ericsson.com/eris/api/test-plans/SEROITSTP00877?timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+        "SEROITSTP00890": "https://teof.internal.ericsson.com/eris/api/test-plans/SEROITSTP00890?timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+        "SEROITSTP01400": "https://teof.internal.ericsson.com/eris/api/test-plans/SEROITSTP01400?timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+        "SEROITSTP01478": "https://teof.internal.ericsson.com/eris/api/test-plans/SEROITSTP01478?timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+        "SEROITSTP01714": "https://teof.internal.ericsson.com/eris/api/test-plans/SEROITSTP01714?timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+        "SEROITSTP01730": "https://teof.internal.ericsson.com/eris/api/test-plans/SEROITSTP01730?timestamp=2021-10-11T06%3A29%3A15%2B00%3A00"
+      }, 
+      "related_test_plans": "https://teof.internal.ericsson.com/eris/api/test-plans/?ci=serointsw00576&timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+      "relation_list": [
+        {
+          "ci_1": "seroitdu00323", 
+          "ci_1_type_name": "DIGITAL_UNIT", 
+          "ci_2": "serointsw00576", 
+          "ci_2_type_name": "SWITCH", 
+          "ci_url_1": "https://teof.internal.ericsson.com/eris/api/ci/seroitdu00323", 
+          "ci_url_2": "https://teof.internal.ericsson.com/eris/api/ci/serointsw00576", 
+          "id": 1079725, 
+          "is_complex": false, 
+          "params_ci_1": {
+            "Port": "LMTB", 
+            "Port_detailed": {
+              "param_id": 494, 
+              "qualifier": 1, 
+              "value": "LMTB"
+            }, 
+            "Value": "Logical", 
+            "Value_detailed": {
+              "param_id": 492, 
+              "qualifier": 1, 
+              "value": "Logical"
+            }
+          }, 
+          "params_ci_2": {
+            "Port": "0", 
+            "Port_detailed": {
+              "param_id": 1089, 
+              "qualifier": 2, 
+              "value": "0"
+            }, 
+            "Value": "Logical", 
+            "Value_detailed": {
+              "param_id": 1087, 
+              "qualifier": 2, 
+              "value": "Logical"
+            }
+          }, 
+          "params_url": "https://teof.internal.ericsson.com/eris/api/ci-relations/1079725/params", 
+          "source": "user", 
+          "source_name": "ehojona", 
+          "type_relation": "https://teof.internal.ericsson.com/eris/api/ci-type-relations/250", 
+          "url": "https://teof.internal.ericsson.com/eris/api/ci-relations/1079725"
+        }, 
+        {
+          "ci_1": "seroitdu00323", 
+          "ci_1_type_name": "DIGITAL_UNIT", 
+          "ci_2": "serointsw00576", 
+          "ci_2_type_name": "SWITCH", 
+          "ci_url_1": "https://teof.internal.ericsson.com/eris/api/ci/seroitdu00323", 
+          "ci_url_2": "https://teof.internal.ericsson.com/eris/api/ci/serointsw00576", 
+          "id": 1418180, 
+          "is_complex": true, 
+          "params_ci_1": {
+            "Port": "LMT B", 
+            "Port_detailed": {
+              "param_id": 494, 
+              "qualifier": 1, 
+              "value": "LMT B"
+            }, 
+            "Type": "RJ-45", 
+            "Type_detailed": {
+              "param_id": 493, 
+              "qualifier": 1, 
+              "value": "RJ-45"
+            }
+          }, 
+          "params_ci_2": {
+            "Port": "0", 
+            "Port_detailed": {
+              "param_id": 1089, 
+              "qualifier": 2, 
+              "value": "0"
+            }, 
+            "Type": "RJ-45", 
+            "Type_detailed": {
+              "param_id": 1088, 
+              "qualifier": 2, 
+              "value": "RJ-45"
+            }
+          }, 
+          "params_url": "https://teof.internal.ericsson.com/eris/api/ci-relations/1418180/params", 
+          "source": "script", 
+          "source_name": "HYDRA_RELATIONS", 
+          "type_relation": "https://teof.internal.ericsson.com/eris/api/ci-type-relations/250", 
+          "url": "https://teof.internal.ericsson.com/eris/api/ci-relations/1418180"
+        }, 
+        {
+          "ci_1": "serointsw00576", 
+          "ci_1_type_name": "SWITCH", 
+          "ci_2": "serointcs00210", 
+          "ci_2_type_name": "TELNET_SWITCH", 
+          "ci_url_1": "https://teof.internal.ericsson.com/eris/api/ci/serointsw00576", 
+          "ci_url_2": "https://teof.internal.ericsson.com/eris/api/ci/serointcs00210", 
+          "id": 1120494, 
+          "is_complex": false, 
+          "params_ci_1": {
+            "Port": "47", 
+            "Port_detailed": {
+              "param_id": 2451, 
+              "qualifier": 1, 
+              "value": "47"
+            }, 
+            "Type": "RJ-45", 
+            "Type_detailed": {
+              "param_id": 2453, 
+              "qualifier": 1, 
+              "value": "RJ-45"
+            }
+          }, 
+          "params_ci_2": {
+            "Port": "LAN 1", 
+            "Port_detailed": {
+              "param_id": 2452, 
+              "qualifier": 2, 
+              "value": "LAN 1"
+            }, 
+            "Type": "RJ-45", 
+            "Type_detailed": {
+              "param_id": 2454, 
+              "qualifier": 2, 
+              "value": "RJ-45"
+            }
+          }, 
+          "params_url": "https://teof.internal.ericsson.com/eris/api/ci-relations/1120494/params", 
+          "source": "script", 
+          "source_name": "HYDRA_RELATIONS", 
+          "type_relation": "https://teof.internal.ericsson.com/eris/api/ci-type-relations/499", 
+          "url": "https://teof.internal.ericsson.com/eris/api/ci-relations/1120494"
+        }, 
+        {
+          "ci_1": "serointsw00576", 
+          "ci_1_type_name": "SWITCH", 
+          "ci_2": "seroinmsw33008-2", 
+          "ci_2_type_name": "SWITCH", 
+          "ci_url_1": "https://teof.internal.ericsson.com/eris/api/ci/serointsw00576", 
+          "ci_url_2": "https://teof.internal.ericsson.com/eris/api/ci/seroinmsw33008-2", 
+          "id": 1102094, 
+          "is_complex": false, 
+          "params_ci_1": {
+            "Port": "Mgmt", 
+            "Port_detailed": {
+              "param_id": 3909, 
+              "qualifier": 2, 
+              "value": "Mgmt"
+            }, 
+            "Type": "RJ-45", 
+            "Type_detailed": {
+              "param_id": 3908, 
+              "qualifier": 2, 
+              "value": "RJ-45"
+            }
+          }, 
+          "params_ci_2": {
+            "Port": "1", 
+            "Port_detailed": {
+              "param_id": 156, 
+              "qualifier": 1, 
+              "value": "1"
+            }, 
+            "Type": "RJ-45", 
+            "Type_detailed": {
+              "param_id": 157, 
+              "qualifier": 1, 
+              "value": "RJ-45"
+            }
+          }, 
+          "params_url": "https://teof.internal.ericsson.com/eris/api/ci-relations/1102094/params", 
+          "source": "script", 
+          "source_name": "HYDRA_RELATIONS", 
+          "type_relation": "https://teof.internal.ericsson.com/eris/api/ci-type-relations/113", 
+          "url": "https://teof.internal.ericsson.com/eris/api/ci-relations/1102094"
+        }
+      ], 
+      "relation_types": "https://teof.internal.ericsson.com/eris/api/ci-type-relations/allowed/SWITCH", 
+      "relations": "https://teof.internal.ericsson.com/eris/api/ci-relations/?ci=serointsw00576&timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+      "source": "script", 
+      "source_name": "river_lethe", 
+      "status": "Busy", 
+      "url": "https://teof.internal.ericsson.com/eris/api/ci/serointsw00576?timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+      "utilization": "No data", 
+      "utilization_failure": {
+        "reason": "Not found in ECUT", 
+        "reason_id": 2
+      }
+    }, 
+    {
+      "characteristic": "physical", 
+      "characteristic_source": "Hydra", 
+      "characteristic_source_is_external": true, 
+      "ci_type": "https://teof.internal.ericsson.com/eris/api/ci-types/SWITCH", 
+      "exists_in_equipman": true, 
+      "exists_in_hydra": true, 
+      "exists_in_taxen": false, 
+      "gic_position": 0.0296296296296296, 
+      "hns_name": false, 
+      "id": 253443, 
+      "latest_sync_info": {
+        "EQUIPMAN": "Tue, 07 Sep 2021 07:58:58 GMT", 
+        "HYDRA": "Tue, 07 Sep 2021 07:58:58 GMT"
+      }, 
+      "modified_url": "https://teof.internal.ericsson.com/eris/api/ci/serointsw00537/modified?timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+      "name": "serointsw00537", 
+      "params": {
+        "BAMS ID": {
+          "id": 8384703, 
+          "source": "script", 
+          "source_name": "HYDRA", 
+          "value": "BAMS-1001985173"
+        }, 
+        "EST Responsible": {
+          "id": 9322427, 
+          "source": "script", 
+          "source_name": "HYDRA", 
+          "value": "DSI NW Area"
+        }, 
+        "Functional designation": {
+          "id": 8384710, 
+          "source": "script", 
+          "source_name": "EQUIPMAN-BAMS-ID-IMPORT", 
+          "value": "JUNIPER QFX5120-48Y-AFO"
+        }, 
+        "GST Responsible": {
+          "id": 8384705, 
+          "source": "script", 
+          "source_name": "HYDRA", 
+          "value": "GST - GIC RO GST6"
+        }, 
+        "IP interface": {
+          "id": 8384702, 
+          "source": "script", 
+          "source_name": "HYDRA", 
+          "value": {
+            "0": {
+              "CIDR": {
+                "value": "24"
+              }, 
+              "Default gateway": {
+                "value": "10.128.237.1"
+              }, 
+              "FQDN": {
+                "value": "serointsw00537.sero.gic.ericsson.se"
+              }, 
+              "IP": {
+                "value": "10.128.237.70"
+              }, 
+              "Interface": {
+                "value": "Mgmt"
+              }, 
+              "Network Address": {
+                "value": "10.128.237.0"
+              }, 
+              "VLAN Tag": {
+                "value": "104"
+              }
+            }
+          }
+        }, 
+        "Lab status": {
+          "id": 8384711, 
+          "source": "script", 
+          "source_name": "EQUIPMAN-BAMS-ID-IMPORT", 
+          "value": "ACTIVE"
+        }, 
+        "Position": {
+          "id": 8384715, 
+          "source": "script", 
+          "source_name": "EQUIPMAN-BAMS-ID-IMPORT", 
+          "value": "SERO01-03-00-0033/13*010"
+        }, 
+        "Serial number": {
+          "id": 8384713, 
+          "source": "script", 
+          "source_name": "EQUIPMAN-BAMS-ID-IMPORT", 
+          "value": "SXH3719030072"
+        }, 
+        "Site": {
+          "id": 8384712, 
+          "source": "script", 
+          "source_name": "EQUIPMAN-BAMS-ID-IMPORT", 
+          "value": "SERO01"
+        }
+      }, 
+      "params_url": "https://teof.internal.ericsson.com/eris/api/ci/serointsw00537/params", 
+      "pooled": false, 
+      "related_ci": "https://teof.internal.ericsson.com/eris/api/ci/?related_ci=serointsw00537&timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+      "related_test_plan_info": {
+        "NPEE_SERO_TS33_INFRA": "https://teof.internal.ericsson.com/eris/api/test-plans/NPEE_SERO_TS33_INFRA?timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+        "SEROITSTP00323": "https://teof.internal.ericsson.com/eris/api/test-plans/SEROITSTP00323?timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+        "SEROITSTP00324": "https://teof.internal.ericsson.com/eris/api/test-plans/SEROITSTP00324?timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+        "SEROITSTP00326": "https://teof.internal.ericsson.com/eris/api/test-plans/SEROITSTP00326?timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+        "SEROITSTP00553": "https://teof.internal.ericsson.com/eris/api/test-plans/SEROITSTP00553?timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+        "SEROITSTP00875": "https://teof.internal.ericsson.com/eris/api/test-plans/SEROITSTP00875?timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+        "SEROITSTP00877": "https://teof.internal.ericsson.com/eris/api/test-plans/SEROITSTP00877?timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+        "SEROITSTP00890": "https://teof.internal.ericsson.com/eris/api/test-plans/SEROITSTP00890?timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+        "SEROITSTP01400": "https://teof.internal.ericsson.com/eris/api/test-plans/SEROITSTP01400?timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+        "SEROITSTP01478": "https://teof.internal.ericsson.com/eris/api/test-plans/SEROITSTP01478?timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+        "SEROITSTP01714": "https://teof.internal.ericsson.com/eris/api/test-plans/SEROITSTP01714?timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+        "SEROITSTP01730": "https://teof.internal.ericsson.com/eris/api/test-plans/SEROITSTP01730?timestamp=2021-10-11T06%3A29%3A15%2B00%3A00"
+      }, 
+      "related_test_plans": "https://teof.internal.ericsson.com/eris/api/test-plans/?ci=serointsw00537&timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+      "relation_list": [
+        {
+          "ci_1": "seroitdu00323", 
+          "ci_1_type_name": "DIGITAL_UNIT", 
+          "ci_2": "serointsw00537", 
+          "ci_2_type_name": "SWITCH", 
+          "ci_url_1": "https://teof.internal.ericsson.com/eris/api/ci/seroitdu00323", 
+          "ci_url_2": "https://teof.internal.ericsson.com/eris/api/ci/serointsw00537", 
+          "id": 1099910, 
+          "is_complex": false, 
+          "params_ci_1": {
+            "Port": "TNB", 
+            "Port_detailed": {
+              "param_id": 494, 
+              "qualifier": 1, 
+              "value": "TNB"
+            }, 
+            "Type": "SFP+", 
+            "Type_detailed": {
+              "param_id": 493, 
+              "qualifier": 1, 
+              "value": "SFP+"
+            }
+          }, 
+          "params_ci_2": {
+            "Port": "0", 
+            "Port_detailed": {
+              "param_id": 1089, 
+              "qualifier": 2, 
+              "value": "0"
+            }, 
+            "Type": "SFP28", 
+            "Type_detailed": {
+              "param_id": 1088, 
+              "qualifier": 2, 
+              "value": "SFP28"
+            }
+          }, 
+          "params_url": "https://teof.internal.ericsson.com/eris/api/ci-relations/1099910/params", 
+          "source": "script", 
+          "source_name": "HYDRA_RELATIONS", 
+          "type_relation": "https://teof.internal.ericsson.com/eris/api/ci-type-relations/250", 
+          "url": "https://teof.internal.ericsson.com/eris/api/ci-relations/1099910"
+        }, 
+        {
+          "ci_1": "serointsw00537", 
+          "ci_1_type_name": "SWITCH", 
+          "ci_2": "seroinmsw33008-2", 
+          "ci_2_type_name": "SWITCH", 
+          "ci_url_1": "https://teof.internal.ericsson.com/eris/api/ci/serointsw00537", 
+          "ci_url_2": "https://teof.internal.ericsson.com/eris/api/ci/seroinmsw33008-2", 
+          "id": 1102093, 
+          "is_complex": false, 
+          "params_ci_1": {
+            "Port": "C0", 
+            "Port_detailed": {
+              "param_id": 3909, 
+              "qualifier": 2, 
+              "value": "C0"
+            }, 
+            "Type": "RJ-45", 
+            "Type_detailed": {
+              "param_id": 3908, 
+              "qualifier": 2, 
+              "value": "RJ-45"
+            }
+          }, 
+          "params_ci_2": {
+            "Port": "0", 
+            "Port_detailed": {
+              "param_id": 156, 
+              "qualifier": 1, 
+              "value": "0"
+            }, 
+            "Type": "RJ-45", 
+            "Type_detailed": {
+              "param_id": 157, 
+              "qualifier": 1, 
+              "value": "RJ-45"
+            }
+          }, 
+          "params_url": "https://teof.internal.ericsson.com/eris/api/ci-relations/1102093/params", 
+          "source": "script", 
+          "source_name": "HYDRA_RELATIONS", 
+          "type_relation": "https://teof.internal.ericsson.com/eris/api/ci-type-relations/113", 
+          "url": "https://teof.internal.ericsson.com/eris/api/ci-relations/1102093"
+        }
+      ], 
+      "relation_types": "https://teof.internal.ericsson.com/eris/api/ci-type-relations/allowed/SWITCH", 
+      "relations": "https://teof.internal.ericsson.com/eris/api/ci-relations/?ci=serointsw00537&timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+      "source": "script", 
+      "source_name": "river_lethe", 
+      "status": "Busy", 
+      "url": "https://teof.internal.ericsson.com/eris/api/ci/serointsw00537?timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+      "utilization": "No data", 
+      "utilization_failure": {
+        "reason": "Not found in ECUT", 
+        "reason_id": 2
+      }
+    }, 
+    {
+      "characteristic": "logical", 
+      "characteristic_source": "default_by_type", 
+      "characteristic_source_is_external": false, 
+      "ci_type": "https://teof.internal.ericsson.com/eris/api/ci-types/GNODEB", 
+      "exists_in_equipman": false, 
+      "exists_in_hydra": false, 
+      "exists_in_taxen": false, 
+      "gic_position": null, 
+      "hns_name": false, 
+      "id": 184234, 
+      "latest_sync_info": {
+        "EQUIPMAN": "Wed, 06 Oct 2021 08:03:36 GMT", 
+        "HYDRA": "Tue, 21 Aug 2018 09:50:35 GMT"
+      }, 
+      "modified_url": "https://teof.internal.ericsson.com/eris/api/ci/seroitrbs00323/modified?timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+      "name": "seroitrbs00323", 
+      "params": {
+        "BAMS ID": {
+          "id": 6622395, 
+          "source": "script", 
+          "source_name": "EQUIPMAN-IMPORT", 
+          "value": ""
+        }, 
+        "Functional designation": {
+          "id": 6622401, 
+          "source": "script", 
+          "source_name": "EQUIPMAN-IMPORT", 
+          "value": ""
+        }, 
+        "Lab status": {
+          "id": 6622400, 
+          "source": "script", 
+          "source_name": "EQUIPMAN-IMPORT", 
+          "value": ""
+        }, 
+        "Node ID": {
+          "id": 6622437, 
+          "source": "user", 
+          "source_name": "eraahel", 
+          "value": "150323"
+        }, 
+        "PLMN": {
+          "id": 6683847, 
+          "source": "user", 
+          "source_name": "eraahel", 
+          "value": "262-80-2"
+        }, 
+        "Position": {
+          "id": 6622394, 
+          "source": "script", 
+          "source_name": "EQUIPMAN-IMPORT", 
+          "value": ""
+        }, 
+        "Product number": {
+          "id": 6622393, 
+          "source": "script", 
+          "source_name": "EQUIPMAN-IMPORT", 
+          "value": ""
+        }, 
+        "Rev": {
+          "id": 6622399, 
+          "source": "script", 
+          "source_name": "EQUIPMAN-IMPORT", 
+          "value": ""
+        }, 
+        "Serial number": {
+          "id": 6622396, 
+          "source": "script", 
+          "source_name": "EQUIPMAN-IMPORT", 
+          "value": ""
+        }, 
+        "Site": {
+          "id": 6622397, 
+          "source": "script", 
+          "source_name": "EQUIPMAN-IMPORT", 
+          "value": ""
+        }
+      }, 
+      "params_url": "https://teof.internal.ericsson.com/eris/api/ci/seroitrbs00323/params", 
+      "pooled": false, 
+      "related_ci": "https://teof.internal.ericsson.com/eris/api/ci/?related_ci=seroitrbs00323&timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+      "related_test_plan_info": {
+        "SEROITSTP00323": "https://teof.internal.ericsson.com/eris/api/test-plans/SEROITSTP00323?timestamp=2021-10-11T06%3A29%3A15%2B00%3A00"
+      }, 
+      "related_test_plans": "https://teof.internal.ericsson.com/eris/api/test-plans/?ci=seroitrbs00323&timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+      "relation_list": [
+        {
+          "ci_1": "seroitrbs00323", 
+          "ci_1_type_name": "GNODEB", 
+          "ci_2": "46594", 
+          "ci_2_type_name": "CORE_NETWORK", 
+          "ci_url_1": "https://teof.internal.ericsson.com/eris/api/ci/seroitrbs00323", 
+          "ci_url_2": "https://teof.internal.ericsson.com/eris/api/ci/46594", 
+          "id": 1607241, 
+          "is_complex": false, 
+          "params_ci_1": {}, 
+          "params_ci_2": {}, 
+          "params_url": "https://teof.internal.ericsson.com/eris/api/ci-relations/1607241/params", 
+          "source": "user", 
+          "source_name": "nrjyoyo", 
+          "type_relation": "https://teof.internal.ericsson.com/eris/api/ci-type-relations/764", 
+          "url": "https://teof.internal.ericsson.com/eris/api/ci-relations/1607241"
+        }, 
+        {
+          "ci_1": "seroitdu00323", 
+          "ci_1_type_name": "DIGITAL_UNIT", 
+          "ci_2": "seroitrbs00323", 
+          "ci_2_type_name": "GNODEB", 
+          "ci_url_1": "https://teof.internal.ericsson.com/eris/api/ci/seroitdu00323", 
+          "ci_url_2": "https://teof.internal.ericsson.com/eris/api/ci/seroitrbs00323", 
+          "id": 578186, 
+          "is_complex": false, 
+          "params_ci_1": {}, 
+          "params_ci_2": {}, 
+          "params_url": "https://teof.internal.ericsson.com/eris/api/ci-relations/578186/params", 
+          "source": "user", 
+          "source_name": "eraahel", 
+          "type_relation": "https://teof.internal.ericsson.com/eris/api/ci-type-relations/691", 
+          "url": "https://teof.internal.ericsson.com/eris/api/ci-relations/578186"
+        }
+      ], 
+      "relation_types": "https://teof.internal.ericsson.com/eris/api/ci-type-relations/allowed/GNODEB", 
+      "relations": "https://teof.internal.ericsson.com/eris/api/ci-relations/?ci=seroitrbs00323&timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+      "source": null, 
+      "source_name": null, 
+      "status": "Busy", 
+      "url": "https://teof.internal.ericsson.com/eris/api/ci/seroitrbs00323?timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+      "utilization": "No data", 
+      "utilization_failure": {}
+    }, 
+    {
+      "characteristic": "physical", 
+      "characteristic_source": "Hydra", 
+      "characteristic_source_is_external": true, 
+      "ci_type": "https://teof.internal.ericsson.com/eris/api/ci-types/DIGITAL_UNIT", 
+      "exists_in_equipman": true, 
+      "exists_in_hydra": true, 
+      "exists_in_taxen": false, 
+      "gic_position": 0.0296296296296296, 
+      "hns_name": false, 
+      "id": 184233, 
+      "latest_sync_info": {
+        "EQUIPMAN": "Wed, 15 Sep 2021 20:25:33 GMT", 
+        "HYDRA": "Wed, 15 Sep 2021 20:25:33 GMT"
+      }, 
+      "modified_url": "https://teof.internal.ericsson.com/eris/api/ci/seroitdu00323/modified?timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+      "name": "seroitdu00323", 
+      "params": {
+        "BAMS ID": {
+          "id": 7372393, 
+          "source": "script", 
+          "source_name": "HYDRA", 
+          "value": "BAMS-1001841822"
+        }, 
+        "CP and UP IPv4 VLAN ID": {
+          "id": 8429568, 
+          "source": "user", 
+          "source_name": "eparskh", 
+          "value": "100"
+        }, 
+        "CP and UP IPv4 address": {
+          "id": 8429557, 
+          "source": "user", 
+          "source_name": "eparskh", 
+          "value": "10.136.64.173"
+        }, 
+        "CP and UP IPv4 subnet": {
+          "id": 8429569, 
+          "source": "user", 
+          "source_name": "eparskh", 
+          "value": "10.136.64.0/24"
+        }, 
+        "Console Server Address": {
+          "id": 8429582, 
+          "source": "user", 
+          "source_name": "eparskh", 
+          "value": "10.136.71.185"
+        }, 
+        "DU Rev": {
+          "id": 7632053, 
+          "source": "script", 
+          "source_name": "EQUIPMAN-BAMS-ID-IMPORT", 
+          "value": "R2B"
+        }, 
+        "DU Type": {
+          "id": 7632049, 
+          "source": "script", 
+          "source_name": "EQUIPMAN-BAMS-ID-IMPORT", 
+          "value": "KDU 137 848/1"
+        }, 
+        "Functional designation": {
+          "id": 7632054, 
+          "source": "script", 
+          "source_name": "EQUIPMAN-BAMS-ID-IMPORT", 
+          "value": "BASEBAND 6630; DIGITAL UNIT (S"
+        }, 
+        "Gateway": {
+          "id": 8429573, 
+          "source": "user", 
+          "source_name": "eparskh", 
+          "value": {
+            "0": {
+              "Address": {
+                "value": "10.136.74.1"
+              }, 
+              "Interface": {
+                "value": "SiteLAN"
+              }
+            }, 
+            "1": {
+              "Address": {
+                "value": "10.136.72.1"
+              }, 
+              "Interface": {
+                "value": "OaM"
+              }
+            }, 
+            "2": {
+              "Address": {
+                "value": "10.136.64.1"
+              }, 
+              "Interface": {
+                "value": "CP/UP"
+              }
+            }
+          }
+        }, 
+        "IP interface": {
+          "id": 9259569, 
+          "source": "script", 
+          "source_name": "HYDRA", 
+          "value": {
+            "0": {
+              "CIDR": {
+                "value": "23"
+              }, 
+              "Default gateway": {
+                "value": "10.136.74.1"
+              }, 
+              "FQDN": {
+                "value": "seroitdu00323-sitelan.npee.sero.gic.ericsson.se"
+              }, 
+              "IP": {
+                "value": "10.136.74.180"
+              }, 
+              "Interface": {
+                "value": "LMT B"
+              }, 
+              "MAC address": {
+                "value": "98:c5:db:ec:6c:cf"
+              }, 
+              "Network Address": {
+                "value": "10.136.74.0"
+              }, 
+              "VLAN Tag": {
+                "value": "106"
+              }
+            }, 
+            "1": {
+              "CIDR": {
+                "value": "23"
+              }, 
+              "Default gateway": {
+                "value": "10.136.72.1"
+              }, 
+              "FQDN": {
+                "value": "seroitdu00323-om.npee.sero.gic.ericsson.se"
+              }, 
+              "IP": {
+                "value": "10.136.72.173"
+              }, 
+              "Interface": {
+                "value": "OaM"
+              }, 
+              "Network Address": {
+                "value": "10.136.72.0"
+              }, 
+              "VLAN Tag": {
+                "value": "105"
+              }
+            }, 
+            "2": {
+              "CIDR": {
+                "value": "64"
+              }, 
+              "Default gateway": {
+                "value": "2001:1b74:88:a200::1"
+              }, 
+              "FQDN": {
+                "value": "seroitdu00323-om.npee.sero.gic.ericsson.se"
+              }, 
+              "IP": {
+                "value": "2001:1b74:88:a200::ad"
+              }, 
+              "Interface": {
+                "value": "OaM"
+              }, 
+              "Network Address": {
+                "value": "2001:1b74:88:a200::"
+              }, 
+              "VLAN Tag": {
+                "value": "105"
+              }
+            }, 
+            "3": {
+              "CIDR": {
+                "value": "23"
+              }, 
+              "Default gateway": {
+                "value": "10.136.64.1"
+              }, 
+              "FQDN": {
+                "value": "seroitdu00323-s1.npee.sero.gic.ericsson.se"
+              }, 
+              "IP": {
+                "value": "10.136.64.173"
+              }, 
+              "Interface": {
+                "value": "S1"
+              }, 
+              "Network Address": {
+                "value": "10.136.64.0"
+              }, 
+              "VLAN Tag": {
+                "value": "100"
+              }
+            }, 
+            "4": {
+              "CIDR": {
+                "value": "64"
+              }, 
+              "Default gateway": {
+                "value": "2001:1b74:88:a000::1"
+              }, 
+              "FQDN": {
+                "value": "seroitdu00323-s1.npee.sero.gic.ericsson.se"
+              }, 
+              "IP": {
+                "value": "2001:1b74:88:a000::ad"
+              }, 
+              "Interface": {
+                "value": "S1"
+              }, 
+              "Network Address": {
+                "value": "2001:1b74:88:a000::"
+              }, 
+              "VLAN Tag": {
+                "value": "100"
+              }
+            }
+          }
+        }, 
+        "Lab status": {
+          "id": 9552139, 
+          "source": "script", 
+          "source_name": "EQUIPMAN-BAMS-ID-IMPORT", 
+          "value": "ACTIVE"
+        }, 
+        "O&M/Payload (TN)": {
+          "id": 8386200, 
+          "source": "script", 
+          "source_name": "HYDRA", 
+          "value": "TN_B"
+        }, 
+        "OAM IPv4 VLAN ID": {
+          "id": 8429571, 
+          "source": "user", 
+          "source_name": "eparskh", 
+          "value": "105"
+        }, 
+        "OAM IPv4 address": {
+          "id": 8429570, 
+          "source": "user", 
+          "source_name": "eparskh", 
+          "value": "10.136.72.173"
+        }, 
+        "OAM IPv4 subnet": {
+          "id": 8429572, 
+          "source": "user", 
+          "source_name": "eparskh", 
+          "value": "10.136.72.0/23"
+        }, 
+        "OAM IPv4 subnet mask": {
+          "id": 8430431, 
+          "source": "user", 
+          "source_name": "eguasah", 
+          "value": "255.255.254.0"
+        }, 
+        "Port": {
+          "id": 8429574, 
+          "source": "user", 
+          "source_name": "eparskh", 
+          "value": "7001"
+        }, 
+        "Position": {
+          "id": 8383683, 
+          "source": "script", 
+          "source_name": "EQUIPMAN-BAMS-ID-IMPORT", 
+          "value": "SERO01-03-00-0033/13*010"
+        }, 
+        "Product number": {
+          "id": 7632048, 
+          "source": "script", 
+          "source_name": "EQUIPMAN-BAMS-ID-IMPORT", 
+          "value": "KDU 137 848/1"
+        }, 
+        "Rev": {
+          "id": 7632055, 
+          "source": "script", 
+          "source_name": "EQUIPMAN-BAMS-ID-IMPORT", 
+          "value": "R2B"
+        }, 
+        "Serial number": {
+          "id": 7632052, 
+          "source": "script", 
+          "source_name": "EQUIPMAN-BAMS-ID-IMPORT", 
+          "value": "B441150105"
+        }, 
+        "Site": {
+          "id": 7632056, 
+          "source": "script", 
+          "source_name": "EQUIPMAN-BAMS-ID-IMPORT", 
+          "value": "SERO01"
+        }, 
+        "Site LAN IP address": {
+          "id": 8429520, 
+          "source": "user", 
+          "source_name": "eparskh", 
+          "value": "10.136.74.180"
+        }, 
+        "Site LAN VLAN ID": {
+          "id": 6632182, 
+          "source": "user", 
+          "source_name": "ewassch", 
+          "value": "106"
+        }, 
+        "Site LAN subnet": {
+          "id": 8429521, 
+          "source": "user", 
+          "source_name": "eparskh", 
+          "value": "10.136.74.0/23"
+        }, 
+        "Site LAN subnet broadcast address": {
+          "id": 8429533, 
+          "source": "user", 
+          "source_name": "eparskh", 
+          "value": "10.136.74.255"
+        }, 
+        "Site LAN subnet default router": {
+          "id": 8429532, 
+          "source": "user", 
+          "source_name": "eparskh", 
+          "value": "10.136.74.1"
+        }, 
+        "Site LAN subnet mask": {
+          "id": 8430448, 
+          "source": "user", 
+          "source_name": "eguasah", 
+          "value": "255.255.254.0"
+        }, 
+        "TN port usage": {
+          "id": 8386199, 
+          "source": "script", 
+          "source_name": "HYDRA", 
+          "value": "TN_B"
+        }
+      }, 
+      "params_url": "https://teof.internal.ericsson.com/eris/api/ci/seroitdu00323/params", 
+      "pooled": false, 
+      "related_ci": "https://teof.internal.ericsson.com/eris/api/ci/?related_ci=seroitdu00323&timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+      "related_test_plan_info": {
+        "SEROITSTP00323": "https://teof.internal.ericsson.com/eris/api/test-plans/SEROITSTP00323?timestamp=2021-10-11T06%3A29%3A15%2B00%3A00"
+      }, 
+      "related_test_plans": "https://teof.internal.ericsson.com/eris/api/test-plans/?ci=seroitdu00323&timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+      "relation_list": [
+        {
+          "ci_1": "seroitdu00323", 
+          "ci_1_type_name": "DIGITAL_UNIT", 
+          "ci_2": "seroitrru00156", 
+          "ci_2_type_name": "RADIO_UNIT", 
+          "ci_url_1": "https://teof.internal.ericsson.com/eris/api/ci/seroitdu00323", 
+          "ci_url_2": "https://teof.internal.ericsson.com/eris/api/ci/seroitrru00156", 
+          "id": 1099906, 
+          "is_complex": false, 
+          "params_ci_1": {
+            "Port": "RID", 
+            "Port_detailed": {
+              "param_id": 6, 
+              "qualifier": 1, 
+              "value": "RID"
+            }, 
+            "Type": "SFP+", 
+            "Type_detailed": {
+              "param_id": 7, 
+              "qualifier": 1, 
+              "value": "SFP+"
+            }
+          }, 
+          "params_ci_2": {
+            "Port": "DATA1", 
+            "Port_detailed": {
+              "param_id": 621, 
+              "qualifier": 2, 
+              "value": "DATA1"
+            }, 
+            "Type": "SFP+", 
+            "Type_detailed": {
+              "param_id": 622, 
+              "qualifier": 2, 
+              "value": "SFP+"
+            }
+          }, 
+          "params_url": "https://teof.internal.ericsson.com/eris/api/ci-relations/1099906/params", 
+          "source": "script", 
+          "source_name": "HYDRA_RELATIONS", 
+          "type_relation": "https://teof.internal.ericsson.com/eris/api/ci-type-relations/48", 
+          "url": "https://teof.internal.ericsson.com/eris/api/ci-relations/1099906"
+        }, 
+        {
+          "ci_1": "seroitdu00323", 
+          "ci_1_type_name": "DIGITAL_UNIT", 
+          "ci_2": "seroitrru00156", 
+          "ci_2_type_name": "RADIO_UNIT", 
+          "ci_url_1": "https://teof.internal.ericsson.com/eris/api/ci/seroitdu00323", 
+          "ci_url_2": "https://teof.internal.ericsson.com/eris/api/ci/seroitrru00156", 
+          "id": 1099907, 
+          "is_complex": false, 
+          "params_ci_1": {
+            "Port": "RIE", 
+            "Port_detailed": {
+              "param_id": 6, 
+              "qualifier": 1, 
+              "value": "RIE"
+            }, 
+            "Type": "SFP+", 
+            "Type_detailed": {
+              "param_id": 7, 
+              "qualifier": 1, 
+              "value": "SFP+"
+            }
+          }, 
+          "params_ci_2": {
+            "Port": "DATA2", 
+            "Port_detailed": {
+              "param_id": 621, 
+              "qualifier": 2, 
+              "value": "DATA2"
+            }, 
+            "Type": "SFP+", 
+            "Type_detailed": {
+              "param_id": 622, 
+              "qualifier": 2, 
+              "value": "SFP+"
+            }
+          }, 
+          "params_url": "https://teof.internal.ericsson.com/eris/api/ci-relations/1099907/params", 
+          "source": "script", 
+          "source_name": "HYDRA_RELATIONS", 
+          "type_relation": "https://teof.internal.ericsson.com/eris/api/ci-type-relations/48", 
+          "url": "https://teof.internal.ericsson.com/eris/api/ci-relations/1099907"
+        }, 
+        {
+          "ci_1": "seroitdu00323", 
+          "ci_1_type_name": "DIGITAL_UNIT", 
+          "ci_2": "seroitrru00156", 
+          "ci_2_type_name": "RADIO_UNIT", 
+          "ci_url_1": "https://teof.internal.ericsson.com/eris/api/ci/seroitdu00323", 
+          "ci_url_2": "https://teof.internal.ericsson.com/eris/api/ci/seroitrru00156", 
+          "id": 1099908, 
+          "is_complex": false, 
+          "params_ci_1": {
+            "Port": "RIF", 
+            "Port_detailed": {
+              "param_id": 6, 
+              "qualifier": 1, 
+              "value": "RIF"
+            }, 
+            "Type": "SFP+", 
+            "Type_detailed": {
+              "param_id": 7, 
+              "qualifier": 1, 
+              "value": "SFP+"
+            }
+          }, 
+          "params_ci_2": {
+            "Port": "DATA3", 
+            "Port_detailed": {
+              "param_id": 621, 
+              "qualifier": 2, 
+              "value": "DATA3"
+            }, 
+            "Type": "SFP+", 
+            "Type_detailed": {
+              "param_id": 622, 
+              "qualifier": 2, 
+              "value": "SFP+"
+            }
+          }, 
+          "params_url": "https://teof.internal.ericsson.com/eris/api/ci-relations/1099908/params", 
+          "source": "script", 
+          "source_name": "HYDRA_RELATIONS", 
+          "type_relation": "https://teof.internal.ericsson.com/eris/api/ci-type-relations/48", 
+          "url": "https://teof.internal.ericsson.com/eris/api/ci-relations/1099908"
+        }, 
+        {
+          "ci_1": "seroitdu00323", 
+          "ci_1_type_name": "DIGITAL_UNIT", 
+          "ci_2": "serointcs00210", 
+          "ci_2_type_name": "TELNET_SWITCH", 
+          "ci_url_1": "https://teof.internal.ericsson.com/eris/api/ci/seroitdu00323", 
+          "ci_url_2": "https://teof.internal.ericsson.com/eris/api/ci/serointcs00210", 
+          "id": 1079723, 
+          "is_complex": false, 
+          "params_ci_1": {
+            "Port": "LMTA", 
+            "Port_detailed": {
+              "param_id": 1249, 
+              "qualifier": 1, 
+              "value": "LMTA"
+            }, 
+            "Value": "Logical", 
+            "Value_detailed": {
+              "param_id": 1251, 
+              "qualifier": 1, 
+              "value": "Logical"
+            }
+          }, 
+          "params_ci_2": {
+            "Port": "1", 
+            "Port_detailed": {
+              "param_id": 1250, 
+              "qualifier": 2, 
+              "value": "1"
+            }, 
+            "Value": "Logical", 
+            "Value_detailed": {
+              "param_id": 1252, 
+              "qualifier": 2, 
+              "value": "Logical"
+            }
+          }, 
+          "params_url": "https://teof.internal.ericsson.com/eris/api/ci-relations/1079723/params", 
+          "source": "user", 
+          "source_name": "ehojona", 
+          "type_relation": "https://teof.internal.ericsson.com/eris/api/ci-type-relations/298", 
+          "url": "https://teof.internal.ericsson.com/eris/api/ci-relations/1079723"
+        }, 
+        {
+          "ci_1": "seroitdu00323", 
+          "ci_1_type_name": "DIGITAL_UNIT", 
+          "ci_2": "serointcs00210", 
+          "ci_2_type_name": "TELNET_SWITCH", 
+          "ci_url_1": "https://teof.internal.ericsson.com/eris/api/ci/seroitdu00323", 
+          "ci_url_2": "https://teof.internal.ericsson.com/eris/api/ci/serointcs00210", 
+          "id": 1418188, 
+          "is_complex": true, 
+          "params_ci_1": {
+            "Port": "LMT A", 
+            "Port_detailed": {
+              "param_id": 1249, 
+              "qualifier": 1, 
+              "value": "LMT A"
+            }, 
+            "Type": "RJ-45", 
+            "Type_detailed": {
+              "param_id": 1253, 
+              "qualifier": 1, 
+              "value": "RJ-45"
+            }
+          }, 
+          "params_ci_2": {
+            "Port": "1", 
+            "Port_detailed": {
+              "param_id": 1250, 
+              "qualifier": 2, 
+              "value": "1"
+            }, 
+            "Type": "RJ-45", 
+            "Type_detailed": {
+              "param_id": 1254, 
+              "qualifier": 2, 
+              "value": "RJ-45"
+            }
+          }, 
+          "params_url": "https://teof.internal.ericsson.com/eris/api/ci-relations/1418188/params", 
+          "source": "script", 
+          "source_name": "HYDRA_RELATIONS", 
+          "type_relation": "https://teof.internal.ericsson.com/eris/api/ci-type-relations/298", 
+          "url": "https://teof.internal.ericsson.com/eris/api/ci-relations/1418188"
+        }, 
+        {
+          "ci_1": "seroitdu00323", 
+          "ci_1_type_name": "DIGITAL_UNIT", 
+          "ci_2": "seroitgpsrc00154", 
+          "ci_2_type_name": "GPS_SPLITTER", 
+          "ci_url_1": "https://teof.internal.ericsson.com/eris/api/ci/seroitdu00323", 
+          "ci_url_2": "https://teof.internal.ericsson.com/eris/api/ci/seroitgpsrc00154", 
+          "id": 1099909, 
+          "is_complex": false, 
+          "params_ci_1": {
+            "Port": "SYNC", 
+            "Port_detailed": {
+              "param_id": 1369, 
+              "qualifier": 1, 
+              "value": "SYNC"
+            }, 
+            "Type": "RJ-45", 
+            "Type_detailed": {
+              "param_id": 1373, 
+              "qualifier": 1, 
+              "value": "RJ-45"
+            }
+          }, 
+          "params_ci_2": {
+            "Port": "1", 
+            "Port_detailed": {
+              "param_id": 1370, 
+              "qualifier": 2, 
+              "value": "1"
+            }, 
+            "Type": "RJ-45", 
+            "Type_detailed": {
+              "param_id": 1374, 
+              "qualifier": 2, 
+              "value": "RJ-45"
+            }, 
+            "Value": "1", 
+            "Value_detailed": {
+              "param_id": 1372, 
+              "qualifier": 2, 
+              "value": "1"
+            }
+          }, 
+          "params_url": "https://teof.internal.ericsson.com/eris/api/ci-relations/1099909/params", 
+          "source": "script", 
+          "source_name": "HYDRA_RELATIONS", 
+          "type_relation": "https://teof.internal.ericsson.com/eris/api/ci-type-relations/318", 
+          "url": "https://teof.internal.ericsson.com/eris/api/ci-relations/1099909"
+        }, 
+        {
+          "ci_1": "seroitdu00323", 
+          "ci_1_type_name": "DIGITAL_UNIT", 
+          "ci_2": "seroifpdu02315", 
+          "ci_2_type_name": "PDU", 
+          "ci_url_1": "https://teof.internal.ericsson.com/eris/api/ci/seroitdu00323", 
+          "ci_url_2": "https://teof.internal.ericsson.com/eris/api/ci/seroifpdu02315", 
+          "id": 1099911, 
+          "is_complex": false, 
+          "params_ci_1": {
+            "Port": "-48VA", 
+            "Port_detailed": {
+              "param_id": 2392, 
+              "qualifier": 1, 
+              "value": "-48VA"
+            }, 
+            "Type": "DC Connector", 
+            "Type_detailed": {
+              "param_id": 2394, 
+              "qualifier": 1, 
+              "value": "DC Connector"
+            }
+          }, 
+          "params_ci_2": {
+            "Port": "1", 
+            "Port_detailed": {
+              "param_id": 2391, 
+              "qualifier": 2, 
+              "value": "1"
+            }, 
+            "Type": "ET20 A", 
+            "Type_detailed": {
+              "param_id": 2393, 
+              "qualifier": 2, 
+              "value": "ET20 A"
+            }
+          }, 
+          "params_url": "https://teof.internal.ericsson.com/eris/api/ci-relations/1099911/params", 
+          "source": "script", 
+          "source_name": "HYDRA_RELATIONS", 
+          "type_relation": "https://teof.internal.ericsson.com/eris/api/ci-type-relations/489", 
+          "url": "https://teof.internal.ericsson.com/eris/api/ci-relations/1099911"
+        }, 
+        {
+          "ci_1": "seroitdu00323", 
+          "ci_1_type_name": "DIGITAL_UNIT", 
+          "ci_2": "serointsw00576", 
+          "ci_2_type_name": "SWITCH", 
+          "ci_url_1": "https://teof.internal.ericsson.com/eris/api/ci/seroitdu00323", 
+          "ci_url_2": "https://teof.internal.ericsson.com/eris/api/ci/serointsw00576", 
+          "id": 1079725, 
+          "is_complex": false, 
+          "params_ci_1": {
+            "Port": "LMTB", 
+            "Port_detailed": {
+              "param_id": 494, 
+              "qualifier": 1, 
+              "value": "LMTB"
+            }, 
+            "Value": "Logical", 
+            "Value_detailed": {
+              "param_id": 492, 
+              "qualifier": 1, 
+              "value": "Logical"
+            }
+          }, 
+          "params_ci_2": {
+            "Port": "0", 
+            "Port_detailed": {
+              "param_id": 1089, 
+              "qualifier": 2, 
+              "value": "0"
+            }, 
+            "Value": "Logical", 
+            "Value_detailed": {
+              "param_id": 1087, 
+              "qualifier": 2, 
+              "value": "Logical"
+            }
+          }, 
+          "params_url": "https://teof.internal.ericsson.com/eris/api/ci-relations/1079725/params", 
+          "source": "user", 
+          "source_name": "ehojona", 
+          "type_relation": "https://teof.internal.ericsson.com/eris/api/ci-type-relations/250", 
+          "url": "https://teof.internal.ericsson.com/eris/api/ci-relations/1079725"
+        }, 
+        {
+          "ci_1": "seroitdu00323", 
+          "ci_1_type_name": "DIGITAL_UNIT", 
+          "ci_2": "serointsw00576", 
+          "ci_2_type_name": "SWITCH", 
+          "ci_url_1": "https://teof.internal.ericsson.com/eris/api/ci/seroitdu00323", 
+          "ci_url_2": "https://teof.internal.ericsson.com/eris/api/ci/serointsw00576", 
+          "id": 1418180, 
+          "is_complex": true, 
+          "params_ci_1": {
+            "Port": "LMT B", 
+            "Port_detailed": {
+              "param_id": 494, 
+              "qualifier": 1, 
+              "value": "LMT B"
+            }, 
+            "Type": "RJ-45", 
+            "Type_detailed": {
+              "param_id": 493, 
+              "qualifier": 1, 
+              "value": "RJ-45"
+            }
+          }, 
+          "params_ci_2": {
+            "Port": "0", 
+            "Port_detailed": {
+              "param_id": 1089, 
+              "qualifier": 2, 
+              "value": "0"
+            }, 
+            "Type": "RJ-45", 
+            "Type_detailed": {
+              "param_id": 1088, 
+              "qualifier": 2, 
+              "value": "RJ-45"
+            }
+          }, 
+          "params_url": "https://teof.internal.ericsson.com/eris/api/ci-relations/1418180/params", 
+          "source": "script", 
+          "source_name": "HYDRA_RELATIONS", 
+          "type_relation": "https://teof.internal.ericsson.com/eris/api/ci-type-relations/250", 
+          "url": "https://teof.internal.ericsson.com/eris/api/ci-relations/1418180"
+        }, 
+        {
+          "ci_1": "seroitdu00323", 
+          "ci_1_type_name": "DIGITAL_UNIT", 
+          "ci_2": "serointsw00537", 
+          "ci_2_type_name": "SWITCH", 
+          "ci_url_1": "https://teof.internal.ericsson.com/eris/api/ci/seroitdu00323", 
+          "ci_url_2": "https://teof.internal.ericsson.com/eris/api/ci/serointsw00537", 
+          "id": 1099910, 
+          "is_complex": false, 
+          "params_ci_1": {
+            "Port": "TNB", 
+            "Port_detailed": {
+              "param_id": 494, 
+              "qualifier": 1, 
+              "value": "TNB"
+            }, 
+            "Type": "SFP+", 
+            "Type_detailed": {
+              "param_id": 493, 
+              "qualifier": 1, 
+              "value": "SFP+"
+            }
+          }, 
+          "params_ci_2": {
+            "Port": "0", 
+            "Port_detailed": {
+              "param_id": 1089, 
+              "qualifier": 2, 
+              "value": "0"
+            }, 
+            "Type": "SFP28", 
+            "Type_detailed": {
+              "param_id": 1088, 
+              "qualifier": 2, 
+              "value": "SFP28"
+            }
+          }, 
+          "params_url": "https://teof.internal.ericsson.com/eris/api/ci-relations/1099910/params", 
+          "source": "script", 
+          "source_name": "HYDRA_RELATIONS", 
+          "type_relation": "https://teof.internal.ericsson.com/eris/api/ci-type-relations/250", 
+          "url": "https://teof.internal.ericsson.com/eris/api/ci-relations/1099910"
+        }, 
+        {
+          "ci_1": "seroitdu00323", 
+          "ci_1_type_name": "DIGITAL_UNIT", 
+          "ci_2": "seroitrbs00323", 
+          "ci_2_type_name": "GNODEB", 
+          "ci_url_1": "https://teof.internal.ericsson.com/eris/api/ci/seroitdu00323", 
+          "ci_url_2": "https://teof.internal.ericsson.com/eris/api/ci/seroitrbs00323", 
+          "id": 578186, 
+          "is_complex": false, 
+          "params_ci_1": {}, 
+          "params_ci_2": {}, 
+          "params_url": "https://teof.internal.ericsson.com/eris/api/ci-relations/578186/params", 
+          "source": "user", 
+          "source_name": "eraahel", 
+          "type_relation": "https://teof.internal.ericsson.com/eris/api/ci-type-relations/691", 
+          "url": "https://teof.internal.ericsson.com/eris/api/ci-relations/578186"
+        }
+      ], 
+      "relation_types": "https://teof.internal.ericsson.com/eris/api/ci-type-relations/allowed/DIGITAL_UNIT", 
+      "relations": "https://teof.internal.ericsson.com/eris/api/ci-relations/?ci=seroitdu00323&timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+      "source": null, 
+      "source_name": null, 
+      "status": "Busy", 
+      "url": "https://teof.internal.ericsson.com/eris/api/ci/seroitdu00323?timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+      "utilization": "80%", 
+      "utilization_failure": {}
+    }, 
+    {
+      "characteristic": "physical", 
+      "characteristic_source": "Hydra", 
+      "characteristic_source_is_external": true, 
+      "ci_type": "https://teof.internal.ericsson.com/eris/api/ci-types/SWITCH", 
+      "exists_in_equipman": true, 
+      "exists_in_hydra": true, 
+      "exists_in_taxen": false, 
+      "gic_position": 0.0222222222222222, 
+      "hns_name": false, 
+      "id": 183816, 
+      "latest_sync_info": {
+        "EQUIPMAN": "Sun, 12 Sep 2021 16:09:26 GMT", 
+        "HYDRA": "Sun, 12 Sep 2021 16:09:26 GMT"
+      }, 
+      "modified_url": "https://teof.internal.ericsson.com/eris/api/ci/seroitsw00074/modified?timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+      "name": "seroitsw00074", 
+      "params": {
+        "BAMS ID": {
+          "id": 8583848, 
+          "source": "script", 
+          "source_name": "HYDRA", 
+          "value": "BAMS-1001944621"
+        }, 
+        "EST Responsible": {
+          "id": 8386533, 
+          "source": "script", 
+          "source_name": "HYDRA", 
+          "value": "E3 - RnD_access_STP_Solution_Global"
+        }, 
+        "Functional designation": {
+          "id": 8583850, 
+          "source": "script", 
+          "source_name": "EQUIPMAN-BAMS-ID-IMPORT", 
+          "value": "EXTREME SUMMIT X430-8P"
+        }, 
+        "GST Responsible": {
+          "id": 8386532, 
+          "source": "script", 
+          "source_name": "HYDRA", 
+          "value": "GST - GIC RO GST6"
+        }, 
+        "IP interface": {
+          "id": 8409719, 
+          "source": "script", 
+          "source_name": "HYDRA", 
+          "value": {
+            "0": {
+              "CIDR": {
+                "value": "23"
+              }, 
+              "Default gateway": {
+                "value": "10.136.78.1"
+              }, 
+              "FQDN": {
+                "value": "seroitsw00074.npee.sero.gic.ericsson.se"
+              }, 
+              "IP": {
+                "value": "10.136.78.168"
+              }, 
+              "Interface": {
+                "value": "VR-Mgmt"
+              }, 
+              "Network Address": {
+                "value": "10.136.78.0"
+              }, 
+              "VLAN Tag": {
+                "value": "111"
+              }
+            }
+          }
+        }, 
+        "Lab status": {
+          "id": 8583851, 
+          "source": "script", 
+          "source_name": "EQUIPMAN-BAMS-ID-IMPORT", 
+          "value": "ACTIVE"
+        }, 
+        "Position": {
+          "id": 8583849, 
+          "source": "script", 
+          "source_name": "EQUIPMAN-BAMS-ID-IMPORT", 
+          "value": "SERO01-03-00-0033/13*008"
+        }, 
+        "Product number": {
+          "id": 8583852, 
+          "source": "script", 
+          "source_name": "EQUIPMAN-BAMS-ID-IMPORT", 
+          "value": "SUMMIT X 430-8P"
+        }, 
+        "Serial number": {
+          "id": 8583853, 
+          "source": "script", 
+          "source_name": "EQUIPMAN-BAMS-ID-IMPORT", 
+          "value": "1842N-40379"
+        }, 
+        "Site": {
+          "id": 8583854, 
+          "source": "script", 
+          "source_name": "EQUIPMAN-BAMS-ID-IMPORT", 
+          "value": "SERO01"
+        }
+      }, 
+      "params_url": "https://teof.internal.ericsson.com/eris/api/ci/seroitsw00074/params", 
+      "pooled": false, 
+      "related_ci": "https://teof.internal.ericsson.com/eris/api/ci/?related_ci=seroitsw00074&timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+      "related_test_plan_info": {
+        "SEROITSTP00323": "https://teof.internal.ericsson.com/eris/api/test-plans/SEROITSTP00323?timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+        "SEROITSTP00326": "https://teof.internal.ericsson.com/eris/api/test-plans/SEROITSTP00326?timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+        "SEROITSTP32058": "https://teof.internal.ericsson.com/eris/api/test-plans/SEROITSTP32058?timestamp=2021-10-11T06%3A29%3A15%2B00%3A00"
+      }, 
+      "related_test_plans": "https://teof.internal.ericsson.com/eris/api/test-plans/?ci=seroitsw00074&timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+      "relation_list": [
+        {
+          "ci_1": "SEROINTCS00048", 
+          "ci_1_type_name": "TELNET_SWITCH", 
+          "ci_2": "seroitsw00074", 
+          "ci_2_type_name": "SWITCH", 
+          "ci_url_1": "https://teof.internal.ericsson.com/eris/api/ci/SEROINTCS00048", 
+          "ci_url_2": "https://teof.internal.ericsson.com/eris/api/ci/seroitsw00074", 
+          "id": 1157721, 
+          "is_complex": false, 
+          "params_ci_1": {
+            "Port": "Mgmt", 
+            "Port_detailed": {
+              "param_id": 2452, 
+              "qualifier": 2, 
+              "value": "Mgmt"
+            }, 
+            "Type": "RJ-45", 
+            "Type_detailed": {
+              "param_id": 2454, 
+              "qualifier": 2, 
+              "value": "RJ-45"
+            }
+          }, 
+          "params_ci_2": {
+            "Port": "1", 
+            "Port_detailed": {
+              "param_id": 2451, 
+              "qualifier": 1, 
+              "value": "1"
+            }, 
+            "Type": "RJ-45", 
+            "Type_detailed": {
+              "param_id": 2453, 
+              "qualifier": 1, 
+              "value": "RJ-45"
+            }
+          }, 
+          "params_url": "https://teof.internal.ericsson.com/eris/api/ci-relations/1157721/params", 
+          "source": "script", 
+          "source_name": "HYDRA_RELATIONS", 
+          "type_relation": "https://teof.internal.ericsson.com/eris/api/ci-type-relations/499", 
+          "url": "https://teof.internal.ericsson.com/eris/api/ci-relations/1157721"
+        }, 
+        {
+          "ci_1": "seroitsw00074", 
+          "ci_1_type_name": "SWITCH", 
+          "ci_2": "seroitrru00156", 
+          "ci_2_type_name": "RADIO_UNIT", 
+          "ci_url_1": "https://teof.internal.ericsson.com/eris/api/ci/seroitsw00074", 
+          "ci_url_2": "https://teof.internal.ericsson.com/eris/api/ci/seroitrru00156", 
+          "id": 1100176, 
+          "is_complex": false, 
+          "params_ci_1": {
+            "Port": "2", 
+            "Port_detailed": {
+              "param_id": 1209, 
+              "qualifier": 2, 
+              "value": "2"
+            }, 
+            "Type": "RJ-45", 
+            "Type_detailed": {
+              "param_id": 1208, 
+              "qualifier": 2, 
+              "value": "RJ-45"
+            }
+          }, 
+          "params_ci_2": {
+            "Port": "LMTB", 
+            "Port_detailed": {
+              "param_id": 614, 
+              "qualifier": 1, 
+              "value": "LMTB"
+            }, 
+            "Type": "RJ-45", 
+            "Type_detailed": {
+              "param_id": 613, 
+              "qualifier": 1, 
+              "value": "RJ-45"
+            }, 
+            "Value": "FIC", 
+            "Value_detailed": {
+              "param_id": 612, 
+              "qualifier": 1, 
+              "value": "FIC"
+            }
+          }, 
+          "params_url": "https://teof.internal.ericsson.com/eris/api/ci-relations/1100176/params", 
+          "source": "script", 
+          "source_name": "HYDRA_RELATIONS", 
+          "type_relation": "https://teof.internal.ericsson.com/eris/api/ci-type-relations/290", 
+          "url": "https://teof.internal.ericsson.com/eris/api/ci-relations/1100176"
+        }, 
+        {
+          "ci_1": "seroitsw00074", 
+          "ci_1_type_name": "SWITCH", 
+          "ci_2": "serointsw00604", 
+          "ci_2_type_name": "SWITCH", 
+          "ci_url_1": "https://teof.internal.ericsson.com/eris/api/ci/seroitsw00074", 
+          "ci_url_2": "https://teof.internal.ericsson.com/eris/api/ci/serointsw00604", 
+          "id": 1109646, 
+          "is_complex": false, 
+          "params_ci_1": {
+            "Port": "9", 
+            "Port_detailed": {
+              "param_id": 3909, 
+              "qualifier": 2, 
+              "value": "9"
+            }, 
+            "Type": "SFP", 
+            "Type_detailed": {
+              "param_id": 3908, 
+              "qualifier": 2, 
+              "value": "SFP"
+            }
+          }, 
+          "params_ci_2": {
+            "Port": "2", 
+            "Port_detailed": {
+              "param_id": 156, 
+              "qualifier": 1, 
+              "value": "2"
+            }, 
+            "Type": "SFP", 
+            "Type_detailed": {
+              "param_id": 157, 
+              "qualifier": 1, 
+              "value": "SFP"
+            }
+          }, 
+          "params_url": "https://teof.internal.ericsson.com/eris/api/ci-relations/1109646/params", 
+          "source": "script", 
+          "source_name": "HYDRA_RELATIONS", 
+          "type_relation": "https://teof.internal.ericsson.com/eris/api/ci-type-relations/113", 
+          "url": "https://teof.internal.ericsson.com/eris/api/ci-relations/1109646"
+        }
+      ], 
+      "relation_types": "https://teof.internal.ericsson.com/eris/api/ci-type-relations/allowed/SWITCH", 
+      "relations": "https://teof.internal.ericsson.com/eris/api/ci-relations/?ci=seroitsw00074&timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+      "source": null, 
+      "source_name": null, 
+      "status": "Busy", 
+      "url": "https://teof.internal.ericsson.com/eris/api/ci/seroitsw00074?timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+      "utilization": "No data", 
+      "utilization_failure": {
+        "reason": "Not found in ECUT", 
+        "reason_id": 2
+      }
+    }, 
+    {
+      "characteristic": "physical", 
+      "characteristic_source": "Hydra", 
+      "characteristic_source_is_external": true, 
+      "ci_type": "https://teof.internal.ericsson.com/eris/api/ci-types/TELNET_SWITCH", 
+      "exists_in_equipman": true, 
+      "exists_in_hydra": true, 
+      "exists_in_taxen": false, 
+      "gic_position": 0.0227272727272727, 
+      "hns_name": false, 
+      "id": 127895, 
+      "latest_sync_info": {
+        "EQUIPMAN": "Tue, 04 May 2021 09:12:54 GMT", 
+        "HYDRA": "Tue, 04 May 2021 09:12:54 GMT"
+      }, 
+      "modified_url": "https://teof.internal.ericsson.com/eris/api/ci/SEROINTCS00048/modified?timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+      "name": "SEROINTCS00048", 
+      "params": {
+        "BAMS ID": {
+          "id": 8583841, 
+          "source": "script", 
+          "source_name": "HYDRA", 
+          "value": "BAMS-1001992574"
+        }, 
+        "Functional designation": {
+          "id": 8583843, 
+          "source": "script", 
+          "source_name": "EQUIPMAN-BAMS-ID-IMPORT", 
+          "value": "NO VALUE"
+        }, 
+        "IP interface": {
+          "id": 8409565, 
+          "source": "script", 
+          "source_name": "HYDRA", 
+          "value": {
+            "0": {
+              "CIDR": {
+                "value": "25"
+              }, 
+              "Default gateway": {
+                "value": "10.136.71.129"
+              }, 
+              "FQDN": {
+                "value": "serointcs00048.npee.sero.gic.ericsson.se"
+              }, 
+              "IP": {
+                "value": "10.136.71.180"
+              }, 
+              "Interface": {
+                "value": "Mgmt"
+              }, 
+              "Network Address": {
+                "value": "10.136.71.128"
+              }, 
+              "VLAN Tag": {
+                "value": "107"
+              }
+            }
+          }
+        }, 
+        "Lab status": {
+          "id": 8583845, 
+          "source": "script", 
+          "source_name": "EQUIPMAN-BAMS-ID-IMPORT", 
+          "value": "ACTIVE"
+        }, 
+        "Position": {
+          "id": 8583846, 
+          "source": "script", 
+          "source_name": "EQUIPMAN-BAMS-ID-IMPORT", 
+          "value": "SERO01-03-00-0033/13*008"
+        }, 
+        "Product number": {
+          "id": 8583847, 
+          "source": "script", 
+          "source_name": "EQUIPMAN-BAMS-ID-IMPORT", 
+          "value": "04031802"
+        }, 
+        "Serial number": {
+          "id": 8583842, 
+          "source": "script", 
+          "source_name": "EQUIPMAN-BAMS-ID-IMPORT", 
+          "value": "80-320819M10110"
+        }, 
+        "Site": {
+          "id": 8583844, 
+          "source": "script", 
+          "source_name": "EQUIPMAN-BAMS-ID-IMPORT", 
+          "value": "SERO01"
+        }
+      }, 
+      "params_url": "https://teof.internal.ericsson.com/eris/api/ci/SEROINTCS00048/params", 
+      "pooled": false, 
+      "related_ci": "https://teof.internal.ericsson.com/eris/api/ci/?related_ci=SEROINTCS00048&timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+      "related_test_plan_info": {
+        "KISTP0054": "https://teof.internal.ericsson.com/eris/api/test-plans/KISTP0054?timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+        "KISTP0139": "https://teof.internal.ericsson.com/eris/api/test-plans/KISTP0139?timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+        "SEROITSTP00323": "https://teof.internal.ericsson.com/eris/api/test-plans/SEROITSTP00323?timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+        "SEROITSTP00326": "https://teof.internal.ericsson.com/eris/api/test-plans/SEROITSTP00326?timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+        "SERO_TS13_L5GR_NWINFRA": "https://teof.internal.ericsson.com/eris/api/test-plans/SERO_TS13_L5GR_NWINFRA?timestamp=2021-10-11T06%3A29%3A15%2B00%3A00"
+      }, 
+      "related_test_plans": "https://teof.internal.ericsson.com/eris/api/test-plans/?ci=SEROINTCS00048&timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+      "relation_list": [
+        {
+          "ci_1": "SEROINTCS00048", 
+          "ci_1_type_name": "TELNET_SWITCH", 
+          "ci_2": "seroitrru00156", 
+          "ci_2_type_name": "RADIO_UNIT", 
+          "ci_url_1": "https://teof.internal.ericsson.com/eris/api/ci/SEROINTCS00048", 
+          "ci_url_2": "https://teof.internal.ericsson.com/eris/api/ci/seroitrru00156", 
+          "id": 1100177, 
+          "is_complex": false, 
+          "params_ci_1": {
+            "Port": "1", 
+            "Port_detailed": {
+              "param_id": 2199, 
+              "qualifier": 2, 
+              "value": "1"
+            }, 
+            "Type": "RJ-45", 
+            "Type_detailed": {
+              "param_id": 2201, 
+              "qualifier": 2, 
+              "value": "RJ-45"
+            }
+          }, 
+          "params_ci_2": {
+            "Port": "LMTA", 
+            "Port_detailed": {
+              "param_id": 2200, 
+              "qualifier": 1, 
+              "value": "LMTA"
+            }, 
+            "Type": "RJ-45", 
+            "Type_detailed": {
+              "param_id": 2202, 
+              "qualifier": 1, 
+              "value": "RJ-45"
+            }, 
+            "Value": "FIC", 
+            "Value_detailed": {
+              "param_id": 2204, 
+              "qualifier": 1, 
+              "value": "FIC"
+            }
+          }, 
+          "params_url": "https://teof.internal.ericsson.com/eris/api/ci-relations/1100177/params", 
+          "source": "script", 
+          "source_name": "HYDRA_RELATIONS", 
+          "type_relation": "https://teof.internal.ericsson.com/eris/api/ci-type-relations/457", 
+          "url": "https://teof.internal.ericsson.com/eris/api/ci-relations/1100177"
+        }, 
+        {
+          "ci_1": "SEROINTCS00048", 
+          "ci_1_type_name": "TELNET_SWITCH", 
+          "ci_2": "seroitsw00074", 
+          "ci_2_type_name": "SWITCH", 
+          "ci_url_1": "https://teof.internal.ericsson.com/eris/api/ci/SEROINTCS00048", 
+          "ci_url_2": "https://teof.internal.ericsson.com/eris/api/ci/seroitsw00074", 
+          "id": 1157721, 
+          "is_complex": false, 
+          "params_ci_1": {
+            "Port": "Mgmt", 
+            "Port_detailed": {
+              "param_id": 2452, 
+              "qualifier": 2, 
+              "value": "Mgmt"
+            }, 
+            "Type": "RJ-45", 
+            "Type_detailed": {
+              "param_id": 2454, 
+              "qualifier": 2, 
+              "value": "RJ-45"
+            }
+          }, 
+          "params_ci_2": {
+            "Port": "1", 
+            "Port_detailed": {
+              "param_id": 2451, 
+              "qualifier": 1, 
+              "value": "1"
+            }, 
+            "Type": "RJ-45", 
+            "Type_detailed": {
+              "param_id": 2453, 
+              "qualifier": 1, 
+              "value": "RJ-45"
+            }
+          }, 
+          "params_url": "https://teof.internal.ericsson.com/eris/api/ci-relations/1157721/params", 
+          "source": "script", 
+          "source_name": "HYDRA_RELATIONS", 
+          "type_relation": "https://teof.internal.ericsson.com/eris/api/ci-type-relations/499", 
+          "url": "https://teof.internal.ericsson.com/eris/api/ci-relations/1157721"
+        }
+      ], 
+      "relation_types": "https://teof.internal.ericsson.com/eris/api/ci-type-relations/allowed/TELNET_SWITCH", 
+      "relations": "https://teof.internal.ericsson.com/eris/api/ci-relations/?ci=SEROINTCS00048&timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+      "source": null, 
+      "source_name": null, 
+      "status": "Busy", 
+      "url": "https://teof.internal.ericsson.com/eris/api/ci/SEROINTCS00048?timestamp=2021-10-11T06%3A29%3A15%2B00%3A00", 
+      "utilization": "No data", 
+      "utilization_failure": {
+        "reason": "Not found in ECUT", 
+        "reason_id": 2
+      }
+    }
+  ]
+}
